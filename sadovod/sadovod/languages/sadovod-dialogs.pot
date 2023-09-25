@@ -1,0 +1,871 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sadovod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-14 19:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: sadovod"
+
+#: records/modules/path.php:33
+#, php-format
+msgid "%1$s from \"%2$s\" by tag <b>%3$s</b>"
+msgstr ""
+
+#: records/modules/interactions.php:221
+#, php-format
+msgid "%s for project %s"
+msgstr ""
+
+#: records/modules/channel.php:818
+msgid "All message data will be erased from your message history"
+msgstr ""
+
+#: records/modules/interactions.php:318
+msgid "Attached record:"
+msgstr ""
+
+#: layouts/500.php:16 layouts/404.php:16 layouts/429.php:16 layouts/403.php:16
+msgid "Back to Home"
+msgstr ""
+
+#: records/modules/path.php:31
+msgid "Category"
+msgstr ""
+
+#: requests/category_add.php:45
+msgid "Category created successfuly!"
+msgstr ""
+
+#: requests/category_add.php:20
+msgid "Category name invalid!"
+msgstr ""
+
+#: requests/channel_add.php:38 records/modules/channel.php:35
+msgid "Channel has been successfully created!"
+msgstr ""
+
+#: requests/channel_settings_save.php:89
+msgid "Channel has been successfully updated!"
+msgstr ""
+
+#: requests/channel_settings_save.php:117 requests/channel_add.php:62
+msgid "Channel members not specified!"
+msgstr ""
+
+#: requests/channel_close.php:37 requests/channel_leave.php:34
+#: requests/channel_clear.php:31 requests/channel_remove.php:31
+msgid "Channel not specified!"
+msgstr ""
+
+#: records/modules/channel.php:822
+msgid "Clear messages"
+msgstr ""
+
+#: records/modules/collection.php:249
+msgid "Collect record"
+msgstr ""
+
+#: records/modules/interactions.php:333
+msgid "Contact"
+msgstr ""
+
+#: records/modules/contact.php:36
+msgid "Contact already exists!"
+msgstr ""
+
+#: requests/contact_remove.php:21
+msgid "Contact has been successfully removed!"
+msgid_plural "Contacts has been successfully saved!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: records/modules/contact.php:49
+msgid "Contact has been successfully saved!"
+msgstr ""
+
+#: requests/contact_remove.php:34 requests/contact_add.php:34
+msgid "Contacts not specified!"
+msgstr ""
+
+#: records/config/user.php:200
+msgid "Current password"
+msgstr ""
+
+#: records/config/post.php:74 records/config/post.php:85
+#: records/config/user.php:212
+msgid "Delete"
+msgstr ""
+
+#: records/modules/channel.php:817
+msgid "Do you really want to clear channel messages?"
+msgstr ""
+
+#: records/modules/channel.php:805
+msgid "Do you really want to close the channel?"
+msgstr ""
+
+#: records/config/post.php:70
+msgid "Do you really want to delete this record?"
+msgstr ""
+
+#: records/config/post.php:81
+msgid "Do you really want to delete this records?"
+msgstr ""
+
+#: records/config/user.php:182
+msgid "Do you really want to delete your account?"
+msgstr ""
+
+#: records/modules/channel.php:793
+msgid "Do you really want to leave the channel?"
+msgstr ""
+
+#: config/theme.php:817
+msgid "Do you really want to logout?"
+msgstr ""
+
+#: requests/user_message.php:25
+msgid "E-mail incorrect."
+msgstr ""
+
+#: requests/user_login.php:43 requests/user_password_update.php:31
+#: requests/user_password_reset.php:37
+msgid "Email address invalid."
+msgstr ""
+
+#: layouts/403.php:13
+msgid "Error 403"
+msgstr ""
+
+#: layouts/404.php:13 records/modules/path.php:24
+msgid "Error 404"
+msgstr ""
+
+#: layouts/429.php:13
+msgid "Error 429"
+msgstr ""
+
+#: layouts/500.php:13
+msgid "Error 500"
+msgstr ""
+
+#: requests/category_add.php:50
+msgid "Error creating category!"
+msgstr ""
+
+#: requests/theme_add.php:40
+msgid "Error creating theme!"
+msgstr ""
+
+#: requests/category_add.php:58
+msgid "Error receiving data!"
+msgstr ""
+
+#: requests/user_message.php:137
+msgid "Error uploading files!"
+msgstr ""
+
+#: requests/user_login.php:89 requests/user_register.php:179
+#: requests/user_password_reset.php:124 requests/user_message.php:229
+msgid "Error verifying captcha response!"
+msgstr ""
+
+#: requests/user_message.php:110
+#, php-format
+msgid "File %s has exceeded allowed file size of %s."
+msgstr ""
+
+#: requests/user_message.php:96
+#, php-format
+msgid "File %s not allowed to upload."
+msgstr ""
+
+#: layouts/single/no-result.php:4 layouts/card/post/no-result.php:4
+#: layouts/search/post/no-result.php:4 layouts/single/post/no-result.php:4
+#: layouts/feed/post/no-result.php:4
+msgid "Go back."
+msgstr ""
+
+#: records/modules/path.php:22
+msgid "Home"
+msgstr ""
+
+#: requests/user_login.php:53
+msgid "Incorrect password."
+msgstr ""
+
+#: requests/user_password_reset.php:107
+msgid "Instructions was send on email."
+msgstr ""
+
+#: requests/user_proposal_add.php:65 requests/user_request_add.php:55
+msgid "Invalid record ID!"
+msgstr ""
+
+#: requests/channel_settings_save.php:94
+msgid "Invite link already in use!"
+msgstr ""
+
+#: requests/channel_settings_save.php:45
+msgid "Invite link too long! Maximum - 32 characters"
+msgstr ""
+
+#: requests/channel_settings_save.php:39
+msgid "Invite link too short! Minimum - 6 characters"
+msgstr ""
+
+#: records/modules/channel.php:806
+msgid "It will be removed from your channel list"
+msgstr ""
+
+#: settings/menu/user.php:214
+msgid "It`s empty here"
+msgstr ""
+
+#: records/config/user.php:194
+msgid "Keep it, with archive account authorship"
+msgstr ""
+
+#: records/config/user.php:193
+msgid "Keep it, with my authorship"
+msgstr ""
+
+#: records/modules/channel.php:798
+msgid "Leave"
+msgstr ""
+
+#: requests/user_login.php:38 requests/user_register.php:64
+#: requests/user_password_update.php:24 requests/user_password_reset.php:30
+msgid "Login empty."
+msgstr ""
+
+#: requests/user_login.php:48 requests/user_password_update.php:39
+#: requests/user_password_reset.php:45
+msgid "Login invalid."
+msgstr ""
+
+#: config/theme.php:821
+msgid "Logout"
+msgstr ""
+
+#: includes/ratelimit.php:23
+msgid "Maximum request count reached!"
+msgstr ""
+
+#: records/modules/path.php:29
+#, php-format
+msgid "Media %s"
+msgstr ""
+
+#: requests/user_message.php:30
+msgid "Message incorrect."
+msgstr ""
+
+#: requests/user_register.php:30 requests/user_update.php:24
+#: requests/user_message.php:20
+msgid "Name is incorrect."
+msgstr ""
+
+#: requests/contact_search.php:77
+msgid "No contacts found! Try find known users."
+msgstr ""
+
+#: settings/menu/user.php:215
+msgid "No goods in your cart"
+msgstr ""
+
+#: requests/contact_search.php:79 requests/user_search.php:58
+msgid "No users found! Try change your searchphrase."
+msgstr ""
+
+#: records/modules/channel_message.php:15
+msgid "Not valid channel ID!"
+msgstr ""
+
+#: records/modules/channel.php:43
+msgid "Not valid channel name!"
+msgstr ""
+
+#: records/modules/contact.php:15
+msgid "Not valid contact user ID!"
+msgstr ""
+
+#: records/modules/interactions.php:20 records/modules/notifications.php:15
+msgid "Not valid element ID!"
+msgstr ""
+
+#: records/modules/interactions.php:40
+msgid "Not valid interaction type!"
+msgstr ""
+
+#: records/modules/notifications.php:35
+msgid "Not valid notification type!"
+msgstr ""
+
+#: records/modules/collection.php:15
+msgid "Not valid record ID!"
+msgstr ""
+
+#: records/modules/interactions.php:67 records/modules/subscribtions.php:15
+msgid "Not valid user ID!"
+msgstr ""
+
+#: layouts/single/no-result.php:2 layouts/list/no-result.php:2
+#: layouts/card/post/no-result.php:2 layouts/search/post/no-result.php:2
+#: layouts/single/post/no-result.php:2 layouts/feed/post/no-result.php:2
+msgid "Nothing found here"
+msgstr ""
+
+#: requests/record_search.php:76
+msgid "Nothing found! Try change you search query."
+msgstr ""
+
+#: requests/channel_search.php:40
+msgid "Nothing found! Try create a new channel."
+msgstr ""
+
+#: records/modules/path.php:23
+#, php-format
+msgid "Page %d"
+msgstr ""
+
+#: requests/user_password_update.php:76
+msgid "Password empty."
+msgstr ""
+
+#: requests/user_password_update.php:82
+msgid "Passwords not match."
+msgstr ""
+
+#: records/modules/interactions.php:266 records/modules/interactions.php:280
+msgid "pc"
+msgid_plural "pcs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: records/modules/interactions.php:294 records/modules/interactions.php:308
+msgid "place"
+msgid_plural "places"
+msgstr[0] ""
+msgstr[1] ""
+
+#: requests/comment_add.php:19
+msgid "Please enter valid comment text."
+msgstr ""
+
+#: requests/channel_close.php:31 requests/category_add.php:66
+#: requests/channel_leave.php:28 requests/record_remove.php:40
+#: requests/theme_add.php:48 requests/user_update.php:53
+#: requests/user_update.php:72 requests/user_proposal_add.php:80
+#: requests/channel_settings_save.php:111 requests/user_request_add.php:70
+#: requests/record_uncollect.php:28 requests/contact_remove.php:28
+#: requests/record_collect.php:28 requests/record_data.php:163
+#: requests/channel_clear.php:25 requests/channel_remove.php:25
+#: requests/user_subscribe.php:28 requests/user_unsubscribe.php:27
+#: requests/records_remove.php:37 requests/channel_add.php:56
+#: requests/user_search.php:64 requests/contact_add.php:28
+#: records/modules/interactions.php:32 records/modules/collection.php:26
+#: records/modules/collection.php:141 records/modules/subscribtions.php:26
+#: records/modules/subscribtions.php:141 records/modules/notifications.php:27
+#: records/modules/channel.php:56 records/modules/channel.php:79
+#: records/modules/channel.php:193 records/modules/channel.php:271
+#: records/modules/contact.php:26 records/modules/contact.php:141
+#: records/modules/channel_message.php:27
+msgid "Please, login and try again."
+msgstr ""
+
+#: requests/user_proposal_add.php:66 requests/user_request_add.php:56
+msgid "Please, reload page."
+msgstr ""
+
+#: requests/user_proposal_add.php:73
+msgid "Please, reopen proposal window."
+msgstr ""
+
+#: requests/user_request_add.php:63
+msgid "Please, reopen request window."
+msgstr ""
+
+#: requests/user_proposal_add.php:59
+msgid "Please, specify at least one proposal."
+msgstr ""
+
+#: requests/user_request_add.php:49
+msgid "Please, specify at least one request."
+msgstr ""
+
+#: requests/category_add.php:59
+msgid "Please, start process again."
+msgstr ""
+
+#: requests/user_register.php:173
+msgid "Please, try again in  later."
+msgstr ""
+
+#: requests/user_login.php:83 requests/user_password_reset.php:118
+#: requests/user_message.php:223
+msgid "Please, try again later."
+msgstr ""
+
+#: requests/user_login.php:90 requests/user_register.php:180
+#: requests/user_password_reset.php:125 requests/user_message.php:230
+msgid "Please, try again."
+msgstr ""
+
+#: requests/user_message.php:138
+msgid "Please, try later."
+msgstr ""
+
+#: includes/ratelimit.php:24
+#, php-format
+msgid "Please, wait %d seconds."
+msgstr ""
+
+#: records/config/user.php:234
+msgid "Proceed"
+msgstr ""
+
+#: requests/user_proposal_add.php:53
+msgid "Proposal has been successfully delivered!"
+msgstr ""
+
+#: records/modules/interactions.php:233
+#, php-format
+msgid "Proposal of funding for project %s"
+msgstr ""
+
+#: records/modules/interactions.php:237
+#, php-format
+msgid "Proposal of funding for project %s by sum - %s ₽, from %s."
+msgstr ""
+
+#: records/modules/interactions.php:301
+#, php-format
+msgid "Proposal of job %s"
+msgstr ""
+
+#: records/modules/interactions.php:305
+#, php-format
+msgid "Proposal of job %s in count - %d %s, from %s."
+msgstr ""
+
+#: records/modules/interactions.php:259
+#, php-format
+msgid "Proposal of resource %s"
+msgstr ""
+
+#: records/modules/interactions.php:263
+#, php-format
+msgid "Proposal of resource %s in count - %d %s, from %s."
+msgstr ""
+
+#: records/modules/channel_message.php:274
+msgid "Read"
+msgstr ""
+
+#: records/modules/collection.php:36
+msgid "Record already exists in collections!"
+msgstr ""
+
+#: requests/record_add.php:62 requests/record_update.php:58
+msgid "Record content are empty."
+msgstr ""
+
+#: requests/record_add.php:57 requests/record_update.php:53
+msgid "Record excerpt are empty."
+msgstr ""
+
+#: requests/record_remove.php:27
+msgid "Record has been successfully removed!"
+msgstr ""
+
+#: records/modules/collection.php:49
+msgid "Record has been successfully saved in collection!"
+msgstr ""
+
+#: requests/user_proposal_add.php:72 requests/user_request_add.php:62
+msgid "Record ID not set!"
+msgstr ""
+
+#: requests/record_remove.php:46 requests/record_data.php:169
+msgid "Record not specified!"
+msgstr ""
+
+#: requests/record_add.php:52 requests/record_update.php:48
+msgid "Record title are empty."
+msgstr ""
+
+#: records/modules/path.php:27
+#, php-format
+msgid "Records by <b>%d</b> year"
+msgstr ""
+
+#: records/modules/path.php:28
+#, php-format
+msgid "Records by <b>%s</b>"
+msgstr ""
+
+#: requests/records_remove.php:22
+msgid "Records has been successfully removed!"
+msgstr ""
+
+#: requests/record_uncollect.php:34 requests/record_collect.php:34
+#: requests/records_remove.php:43
+msgid "Records not specified!"
+msgstr ""
+
+#: records/modules/collection.php:253
+msgid "Remove from collection"
+msgstr ""
+
+#: records/modules/subscribtions.php:254
+msgid "Remove from subscriptions"
+msgstr ""
+
+#: records/config/user.php:195
+msgid "Remove it"
+msgstr ""
+
+#: requests/user_request_add.php:43
+msgid "Request has been successfully delivered!"
+msgstr ""
+
+#: records/modules/interactions.php:246
+#, php-format
+msgid "Request of funding for project %s"
+msgstr ""
+
+#: records/modules/interactions.php:250
+#, php-format
+msgid "Request of funding for project %s by sum - %s ₽, from %s."
+msgstr ""
+
+#: records/modules/interactions.php:287
+#, php-format
+msgid "Request of job %s"
+msgstr ""
+
+#: records/modules/interactions.php:291
+#, php-format
+msgid "Request of job %s in count - %d %s, from %s."
+msgstr ""
+
+#: records/modules/interactions.php:273
+#, php-format
+msgid "Request of resource %s"
+msgstr ""
+
+#: records/modules/interactions.php:277
+#, php-format
+msgid "Request of resource %s in count - %d %s, from %s."
+msgstr ""
+
+#: requests/user_password_update.php:64
+msgid "Reset key expired."
+msgstr ""
+
+#: requests/user_password_update.php:49 requests/user_password_update.php:59
+msgid "Reset key invalid."
+msgstr ""
+
+#: records/config/user.php:209 records/config/user.php:231
+msgid "Revert"
+msgstr ""
+
+#: records/modules/path.php:25
+#, php-format
+msgid "Search results for query: <b>%s</b>"
+msgstr ""
+
+#: records/config/user.php:220
+msgid "Security check"
+msgstr ""
+
+#: records/config/user.php:190
+msgid "Select variant"
+msgstr ""
+
+#: settings/control/slider.php:213
+msgid "Slides not found."
+msgstr ""
+
+#: requests/record_add.php:73 requests/record_update.php:69
+msgid "Something happened on our side, please try later."
+msgstr ""
+
+#: layouts/500.php:14 layouts/404.php:14 layouts/429.php:14
+msgid "Something went wrong"
+msgstr ""
+
+#: records/config/user.php:201 records/config/user.php:224
+msgid "Specify current password"
+msgstr ""
+
+#: records/modules/subscribtions.php:250
+msgid "Subscribe to user"
+msgstr ""
+
+#: requests/user_register.php:35 requests/user_update.php:29
+msgid "Surname is incorrect."
+msgstr ""
+
+#: records/modules/path.php:32
+msgid "Tag"
+msgstr ""
+
+#: requests/user_password_reset.php:102 requests/user_message.php:205
+msgid "The email could not be sent. Please try later."
+msgstr ""
+
+#: records/modules/path.php:30
+msgid "Theme"
+msgstr ""
+
+#: requests/theme_add.php:35
+msgid "Theme created successfuly!"
+msgstr ""
+
+#: requests/theme_add.php:20
+msgid "Theme name invalid!"
+msgstr ""
+
+#: requests/user_register.php:74
+msgid "This email address is already registered."
+msgstr ""
+
+#: requests/channel_add.php:30
+msgid "This personal channel already exist!"
+msgstr ""
+
+#: requests/user_register.php:69
+msgid "This username is already registered."
+msgstr ""
+
+#: includes/invite.php:70
+#, php-format
+msgid "To join channel `%s` you need to log in to your account!"
+msgstr ""
+
+#: records/config/user.php:221
+msgid "To proceed settings update, you need to specify your active password"
+msgstr ""
+
+#: layouts/429.php:15
+msgid ""
+"Too many requests in short period of time!<br>Wait some time. Page will be "
+"reloaded automaticaly"
+msgstr ""
+
+#: layouts/list/no-result.php:3
+msgid "Try come back later."
+msgstr ""
+
+#: layouts/403.php:15
+msgid "Try to use search form or return to the main page."
+msgstr ""
+
+#: layouts/single/no-result.php:3 layouts/card/post/no-result.php:3
+#: layouts/search/post/no-result.php:3 layouts/single/post/no-result.php:3
+#: layouts/feed/post/no-result.php:3
+msgid "Try to use search, or return back."
+msgstr ""
+
+#: records/modules/channel.php:48
+msgid "Unknow error!"
+msgstr ""
+
+#: records/modules/subscribtions.php:36
+msgid "User already exists in subscriptions!"
+msgstr ""
+
+#: records/modules/interactions.php:324
+msgid "User commentary:"
+msgstr ""
+
+#: requests/user_unsubscribe.php:33
+msgid "User not specified!"
+msgstr ""
+
+#: records/modules/path.php:26
+msgid "Users"
+msgstr ""
+
+#: requests/user_subscribe.php:34
+msgid "Users not specified!"
+msgstr ""
+
+#: records/modules/interactions.php:338
+msgid "View record"
+msgstr ""
+
+#: layouts/500.php:15
+msgid ""
+"We can’t handle this request!<br>Try to use search form or return to the "
+"main page."
+msgstr ""
+
+#: layouts/404.php:15
+msgid ""
+"We didn’t find anything!<br>Try to use search form or return to the main "
+"page."
+msgstr ""
+
+#: layouts/single/no-result.php:3 layouts/list/no-result.php:3
+#: layouts/card/post/no-result.php:3 layouts/search/post/no-result.php:3
+#: layouts/single/post/no-result.php:3 layouts/feed/post/no-result.php:3
+msgid "We not found anything."
+msgstr ""
+
+#: requests/user_login.php:82 requests/user_register.php:172
+#: requests/user_password_reset.php:117 requests/user_message.php:222
+msgid "We sorry, but you looks like a robot!"
+msgstr ""
+
+#: requests/user_message.php:213
+msgid "We will review it, as soon as we can."
+msgstr ""
+
+#: records/config/user.php:189
+msgid "What to do with your records?"
+msgstr ""
+
+#: requests/user_logout.php:28
+msgid "You already unauthorized!"
+msgstr ""
+
+#: requests/channel_close.php:30 requests/category_add.php:65
+#: requests/channel_leave.php:27 requests/record_remove.php:39
+#: requests/theme_add.php:47 requests/user_update.php:52
+#: requests/user_update.php:71 requests/user_proposal_add.php:79
+#: requests/channel_settings_save.php:110 requests/user_request_add.php:69
+#: requests/record_uncollect.php:27 requests/contact_remove.php:27
+#: requests/record_collect.php:27 requests/record_data.php:162
+#: requests/channel_clear.php:24 requests/channel_remove.php:24
+#: requests/user_subscribe.php:27 requests/user_unsubscribe.php:26
+#: requests/records_remove.php:36 requests/channel_add.php:55
+#: requests/user_search.php:63 requests/contact_add.php:27
+#: records/modules/interactions.php:31 records/modules/collection.php:25
+#: records/modules/collection.php:140 records/modules/subscribtions.php:25
+#: records/modules/subscribtions.php:140 records/modules/notifications.php:26
+#: records/modules/channel.php:55 records/modules/channel.php:78
+#: records/modules/channel.php:192 records/modules/channel.php:270
+#: records/modules/contact.php:25 records/modules/contact.php:140
+#: records/modules/channel_message.php:26
+msgid "You are not authorized!"
+msgstr ""
+
+#: requests/user_register.php:41
+msgid "You are not authorized."
+msgstr ""
+
+#: records/modules/channel.php:794
+msgid "You can only return using invite link or if someone will invite you"
+msgstr ""
+
+#: requests/record_remove.php:33 requests/record_data.php:156
+msgid "You can’t edit this record!"
+msgstr ""
+
+#: requests/records_remove.php:27
+msgid "You can’t edit this records!"
+msgstr ""
+
+#: layouts/403.php:14
+msgid "You dont have access here"
+msgstr ""
+
+#: requests/channel_settings_save.php:101 records/modules/channel.php:544
+msgid "You don’t have enough rights to perform this action!"
+msgstr ""
+
+#: requests/user_unsubscribe.php:21
+msgid "You has been successfully unsubscribed from user!"
+msgstr ""
+
+#: records/modules/subscribtions.php:49
+msgid "You have been successfully subscribed to user!"
+msgstr ""
+
+#: records/modules/channel.php:169 records/modules/channel.php:250
+#: records/modules/channel_message.php:75
+msgid "You not a member of this channel!"
+msgstr ""
+
+#: requests/channel_clear.php:19
+msgid "You successfully cleared the channel!"
+msgstr ""
+
+#: requests/channel_close.php:24
+msgid "You successfully closed the channel!"
+msgstr ""
+
+#: requests/record_add.php:83
+msgid "You successfully created new record!"
+msgstr ""
+
+#: requests/channel_leave.php:21
+msgid "You successfully left the channel!"
+msgstr ""
+
+#: requests/user_login.php:73
+msgid "You successfully logged in!"
+msgstr ""
+
+#: requests/user_password_reset.php:106
+msgid "You successfully made password reset request!"
+msgstr ""
+
+#: requests/user_password_update.php:101
+msgid "You successfully made password reset!"
+msgstr ""
+
+#: requests/comment_add.php:86
+msgid "You successfully posted comment!"
+msgstr ""
+
+#: requests/user_register.php:162
+msgid "You successfully registered!"
+msgstr ""
+
+#: requests/user_logout.php:22
+msgid "You successfully unauthorized!"
+msgstr ""
+
+#: requests/record_update.php:80
+msgid "You successfully updated record!"
+msgstr ""
+
+#: requests/user_password_update.php:102
+msgid "You will be automatically authorized in few seconds."
+msgstr ""
+
+#: records/config/user.php:184
+#, php-format
+msgid "You will have %d days to login again, to cancel this operation"
+msgstr ""
+
+#: requests/user_message.php:212
+msgid "Your message succesfuly send!"
+msgstr ""
+
+#: requests/user_proposal_add.php:58
+msgid "Your proposals not set!"
+msgstr ""
+
+#: requests/user_request_add.php:48
+msgid "Your requests not set!"
+msgstr ""
+
+#: records/modules/channel.php:810
+msgid "Сlose"
+msgstr ""

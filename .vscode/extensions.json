@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "ernestdong.dbcc",
+        "junstyle.css-formatter",
+        "satiromarra.code-sftp",
+        "pucelle.vscode-css-navigation",
+        "zignd.html-css-class-completion",
+        "bmewburn.vscode-intelephense-client",               
+        "pmcxs.vscode-mindmap",
+        "sukumo28.wav-preview",
+        "gruntfuggly.todo-tree",
+        "ronvanderheijden.phpdoc-generator",
+        "hbenl.vscode-test-explorer",
+        "ms-vscode.test-adapter-converter",
+        "recca0120.vscode-phpunit",
+        "onecentlin.phpunit-snippets"        
+    ]
+}

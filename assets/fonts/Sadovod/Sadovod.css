@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'sadovod';
+  src:  url('sadovod.eot?ln6gxb');
+  src:  url('sadovod.eot?ln6gxb#iefix') format('embedded-opentype'),
+    url('sadovod.ttf?ln6gxb') format('truetype'),
+    url('sadovod.woff?ln6gxb') format('woff'),
+    url('sadovod.svg?ln6gxb#sadovod') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sadovod' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-chevron-up:before {
+  content: "\2b06";
+}
+.i-chevron-down:before {
+  content: "\2b07";
+}
+.i-chevron-left:before {
+  content: "\2b05";
+}
+.i-chevron-right:before {
+  content: "\27a1";
+}
+.i-arrow-triangle-left:before {
+  content: "\2190";
+}
+.i-arrow-triangle-right:before {
+  content: "\2192";
+}
+.i-upload:before {
+  content: "\1f4e4";
+}
+.i-tick-square:before {
+  content: "\2705";
+}
+.i-check-square:before {
+  content: "\2611";
+}
+.i-danger-triangle:before {
+  content: "\26a0";
+}
+.i-copy:before {
+  content: "\1f4be";
+}
+.i-list:before {
+  content: "\2630";
+}
+.i-user-plus:before {
+  content: "\271b";
+}
+.i-user-check:before {
+  content: "\2714";
+}
+.i-user-service:before {
+  content: "\271c";
+}
+.i-user-time:before {
+  content: "\2707";
+}
+.i-loss:before {
+  content: "\2718";
+}
+.i-cart:before {
+  content: "\1f6d2";
+}
+.i-dislike:before {
+  content: "\1f44e";
+}
+.i-document:before {
+  content: "\1f4c4";
+}
+.i-medal:before {
+  content: "\1f947";
+}
+.i-monitor:before {
+  content: "\1f5a5";
+}
+.i-study:before {
+  content: "\1f4d6";
+}
+.i-wrench:before {
+  content: "\1f527";
+}
+.i-scales:before {
+  content: "\2696";
+}
+.i-miscall:before {
+  content: "\1f4f5";
+}
+.i-flow:before {
+  content: "\1f4da";
+}
+.i-alarm:before {
+  content: "\23f0";
+}
+.i-image:before {
+  content: "\1f5bc";
+}
+.i-script:before {
+  content: "\1f4dc";
+}
+.i-graph:before {
+  content: "\303d";
+}
+.i-wheel:before {
+  content: "\2638";
+}
+.i-search:before {
+  content: "\1f50d";
+}
+.i-check:before {
+  content: "\2713";
+}
+.i-close:before {
+  content: "\274c";
+}
+.i-arrow-up:before {
+  content: "\21d1";
+}
+.i-chat:before {
+  content: "\1f4ac";
+}
+.i-whatsapp:before {
+  content: "\260f";
+}
+.i-telegram:before {
+  content: "\2708";
+}
+.i-vk:before {
+  content: "\1faa7";
+}
+.i-youtube:before {
+  content: "\1f4fa";
+}

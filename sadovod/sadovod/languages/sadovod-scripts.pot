@@ -1,0 +1,453 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sadovod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-23 01:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: sadovod"
+
+#: assets/js/bootstrap.select.min.js:943
+#, javascript-format
+msgid "%s item selected"
+msgid_plural "%s items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/main.js:1610
+#, javascript-format
+msgid "Accepted interval 1-%d"
+msgstr ""
+
+#: records/assets/js/user.js:240 records/assets/js/user.js:246
+#: records/assets/js/offer.js:232 records/assets/js/offer.js:238
+#: records/assets/js/post_files.js:14 records/assets/js/post_files.js:20
+#: records/assets/js/job.js:233 records/assets/js/job.js:239
+msgid "Add file"
+msgstr ""
+
+#: records/assets/js/gallery.js:20
+msgid "Add image"
+msgstr ""
+
+#: records/assets/js/gallery.js:14
+msgid "Add image to gallery"
+msgstr ""
+
+#: assets/js/main.js:3826
+msgid "Add media"
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:977
+msgid "Add new"
+msgstr ""
+
+#: assets/js/main.js:3820
+msgid "Add new media"
+msgstr ""
+
+#: assets/js/main.js:4982
+msgid "Add to contacts"
+msgstr ""
+
+#: assets/js/main.js:4690
+msgid "audio"
+msgstr ""
+
+#: assets/js/main.js:4483
+msgid "Cancel request"
+msgstr ""
+
+#: assets/js/main.js:4014
+msgid "Category Image"
+msgstr ""
+
+#: assets/js/main.js:3886
+msgid "Change"
+msgstr ""
+
+#: records/assets/js/user.js:296 records/assets/js/user.js:302
+#: records/assets/js/offer.js:288 records/assets/js/offer.js:294
+#: records/assets/js/post_files.js:70 records/assets/js/post_files.js:76
+#: records/assets/js/job.js:289 records/assets/js/job.js:295
+msgid "Change file"
+msgstr ""
+
+#: records/assets/js/gallery.js:60 records/assets/js/gallery.js:66
+msgid "Change image"
+msgstr ""
+
+#: assets/js/main.js:3880
+msgid "Change media"
+msgstr ""
+
+#: assets/js/main.js:2062
+msgid "Channel Image"
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:958
+msgid "Close"
+msgstr ""
+
+#: assets/js/main.js:928
+msgid "Collect record"
+msgstr ""
+
+#: assets/js/main.js:3404
+msgid "Contact"
+msgstr ""
+
+#: assets/js/main.js:2245
+msgid "Create channel"
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:952
+msgid "Deselect All"
+msgstr ""
+
+#: assets/js/main.js:4730
+msgid "document"
+msgstr ""
+
+#: records/assets/js/resource.js:28
+msgid "Feature Image"
+msgstr ""
+
+#: records/assets/js/user.js:135 records/assets/js/user.js:181
+#: records/assets/js/offer.js:127 records/assets/js/offer.js:173
+#: records/assets/js/term_image.js:18 records/assets/js/term_image.js:64
+#: records/assets/js/project.js:101 records/assets/js/project.js:147
+#: records/assets/js/job.js:128 records/assets/js/job.js:174
+msgid "Featured Image"
+msgstr ""
+
+#: assets/js/main.js:1586
+msgid "First page reached"
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:948
+#, javascript-format
+msgid "Group limit reached (%s item max)"
+msgid_plural "Group limit reached (%s items max)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/password.view.js:41 assets/js/main.js:900
+#: assets/js/sources/password.view.js:41
+msgid "Hide Password"
+msgstr ""
+
+#: assets/js/main.js:3116
+msgid "I understand"
+msgstr ""
+
+#: assets/js/main.js:5138
+msgid "If you have any question or proposition use this form!"
+msgstr ""
+
+#: assets/js/main.js:4672
+msgid "image"
+msgstr ""
+
+#: assets/js/main.js:2038
+msgid "Invite users"
+msgstr ""
+
+#: assets/js/main.js:2384
+msgid "It`s empty here right now"
+msgstr ""
+
+#: assets/js/main.js:3561
+msgid "It’s good"
+msgstr ""
+
+#: assets/js/main.js:1564
+msgid "Last page reached"
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:947
+#, javascript-format
+msgid "Limit reached (%s item max)"
+msgid_plural "Limit reached (%s items max)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/main.js:1067 assets/js/main.js:1281
+msgid "Load preview"
+msgstr ""
+
+#: assets/js/main.js:4051 assets/js/main.js:4079
+msgid "Loading data..."
+msgstr ""
+
+#: assets/js/main.js:2233 assets/js/main.js:2351
+msgid "Loading messages."
+msgstr ""
+
+#: assets/js/main.js:3731
+msgid "Loading next step."
+msgstr ""
+
+#: assets/js/main.js:3319
+msgid "Loading notifications."
+msgstr ""
+
+#: assets/js/main.js:1069 assets/js/main.js:1283
+msgid "Loading preview..."
+msgstr ""
+
+#: assets/js/main.js:4109
+msgid "Loading record data."
+msgstr ""
+
+#: assets/js/main.js:378
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/main.js:4626
+#, javascript-format
+msgid "Maximum file count exceeded. Allowed %d."
+msgstr ""
+
+#: assets/js/main.js:4643
+#, javascript-format
+msgid ""
+"Maximum file count exceeded. Allowed %d. Uploaded only %d. Rest files will "
+"be skipped."
+msgstr ""
+
+#: assets/js/main.js:4653
+#, javascript-format
+msgid "Maximum file size for %s %s file exceeded. Allowed %dMB, got %dMB."
+msgstr ""
+
+#: assets/js/main.js:1293
+msgid "Next page"
+msgstr ""
+
+#: assets/js/main.js:759
+msgid "No"
+msgstr ""
+
+#: assets/js/main.js:3350
+msgid "No notifications"
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:941
+#, javascript-format
+msgid "No results matched %s"
+msgstr ""
+
+#: assets/js/main.js:292
+msgid "Nothing found! Try change your searchphrase."
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:940
+msgid "Nothing selected"
+msgstr ""
+
+#: assets/js/main.js:3115 assets/js/main.js:3559 assets/js/main.js:5338
+#: assets/js/main.js:5342 assets/js/main.js:5346
+msgid "Notification"
+msgstr ""
+
+#: assets/js/main.js:880 assets/js/password.strength.js:120
+#: assets/js/sources/password.strength.js:120
+msgid "Password is Mediocre"
+msgstr ""
+
+#: assets/js/main.js:880 assets/js/password.strength.js:123
+#: assets/js/sources/password.strength.js:123
+msgid "Password is Strong"
+msgstr ""
+
+#: assets/js/main.js:880 assets/js/password.strength.js:126
+#: assets/js/sources/password.strength.js:126
+msgid "Password is Very strong"
+msgstr ""
+
+#: assets/js/main.js:880 assets/js/password.strength.js:114
+#: assets/js/sources/password.strength.js:114
+msgid "Password is Very weak"
+msgstr ""
+
+#: assets/js/main.js:880 assets/js/password.strength.js:117
+#: assets/js/sources/password.strength.js:117
+msgid "Password is Weak"
+msgstr ""
+
+#: assets/js/password.compare.js:27 assets/js/main.js:887
+#: assets/js/sources/password.compare.js:27
+msgid "Passwords didn’t match"
+msgstr ""
+
+#: assets/js/main.js:377
+msgid "Pick emoji"
+msgstr ""
+
+#: assets/js/main.js:4413
+msgid "Please, choose option"
+msgstr ""
+
+#: assets/js/main.js:4415
+msgid "Please, fill this field"
+msgstr ""
+
+#: assets/js/main.js:4561
+msgid "Please, reload the page!"
+msgstr ""
+
+#: assets/js/main.js:4403
+msgid "Please, set quanity"
+msgstr ""
+
+#: assets/js/main.js:770 assets/js/main.js:2235 assets/js/main.js:2353
+#: assets/js/main.js:3321 assets/js/main.js:3733 assets/js/main.js:4111
+#: assets/js/main.js:4450
+msgid "Please, wait..."
+msgstr ""
+
+#: assets/js/main.js:1289
+msgid "Previous page"
+msgstr ""
+
+#: assets/js/main.js:3776
+msgid "Record Image"
+msgstr ""
+
+#: assets/js/main.js:931
+msgid "Remove from collection"
+msgstr ""
+
+#: assets/js/main.js:4984
+msgid "Remove from contacts"
+msgstr ""
+
+#: assets/js/main.js:1006
+msgid "Remove from subscriptions"
+msgstr ""
+
+#: assets/js/main.js:3351
+msgid "Right now you don’t have any notifications."
+msgstr ""
+
+#: records/editor/metaboxes/location.php:121 records/assets/js/location.js:46
+msgid "Searching..."
+msgstr ""
+
+#: assets/js/main.js:2243
+msgid ""
+"Select a channel from the list.<br>Or create a new one using button below."
+msgstr ""
+
+#: assets/js/bootstrap.select.min.js:951
+msgid "Select All"
+msgstr ""
+
+#: assets/js/main.js:2042 assets/js/main.js:2094
+msgid "Select user"
+msgstr ""
+
+#: assets/js/main.js:768
+msgid "Sending data."
+msgstr ""
+
+#: assets/js/main.js:4448
+msgid "Sending form data."
+msgstr ""
+
+#: assets/js/main.js:4020
+msgid "Set category image"
+msgstr ""
+
+#: assets/js/main.js:2068
+msgid "Set channel image"
+msgstr ""
+
+#: records/assets/js/resource.js:34
+msgid "Set feature image"
+msgstr ""
+
+#: records/assets/js/user.js:141 records/assets/js/user.js:187
+#: records/assets/js/offer.js:133 records/assets/js/offer.js:179
+#: records/assets/js/term_image.js:24 records/assets/js/term_image.js:70
+#: records/assets/js/project.js:107 records/assets/js/project.js:153
+#: records/assets/js/job.js:134 records/assets/js/job.js:180
+msgid "Set featured image"
+msgstr ""
+
+#: assets/js/main.js:3782
+msgid "Set record image"
+msgstr ""
+
+#: settings/assets/js/slider.js:48
+msgid "Set slider image"
+msgstr ""
+
+#: assets/js/password.view.js:37 assets/js/main.js:900
+#: assets/js/sources/password.view.js:37
+msgid "Show Password"
+msgstr ""
+
+#: assets/js/main.js:5131
+msgid ""
+"Site currently in development! The appearance and functionality may be "
+"subject to change."
+msgstr ""
+
+#: settings/assets/js/slider.js:42
+msgid "Slider Image"
+msgstr ""
+
+#: assets/js/main.js:4559
+msgid "Some error happened."
+msgstr ""
+
+#: assets/js/main.js:2242
+msgid "Start messaging"
+msgstr ""
+
+#: assets/js/main.js:1003
+msgid "Subscribe user"
+msgstr ""
+
+#: assets/js/main.js:4710
+msgid "video"
+msgstr ""
+
+#: assets/js/main.js:3408
+msgid "View record"
+msgstr ""
+
+#: assets/js/main.js:2385
+msgid "Write your first message in the field below."
+msgstr ""
+
+#: assets/js/main.js:759
+msgid "Yes"
+msgstr ""
+
+#: assets/js/main.js:3560
+msgid "You successfully subscribed!"
+msgstr ""
+
+#: assets/js/main.js:3641
+msgid "Your browser doesn’t support web notifications."
+msgstr ""
+
+#: assets/js/main.js:1301
+msgid "Zoom In"
+msgstr ""
+
+#: assets/js/main.js:1305
+msgid "Zoom Out"
+msgstr ""
