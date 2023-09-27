@@ -9,9 +9,14 @@ if ($_POST) {
     global $wpdb;
 
     //Проверяем все поля ввода перед запросом SQL
-    $username = $wpdb->escape($_REQUEST['username']);
-    $password = $wpdb->escape($_REQUEST['password']);
-    $remember = $wpdb->escape($_REQUEST['rememberme']);
+    $username = $wpdb->_escape($_REQUEST['username']);
+    $password = $wpdb->_escape($_REQUEST['password']);
+    if (!empty($_REQUEST['rememberme'])) {
+        $remember = $wpdb->_escape($_REQUEST['rememberme']);
+    } else {
+        $remember = true;
+    }
+
 
     if ($remember) $remember = "true";
     else $remember = "false";
@@ -45,11 +50,11 @@ get_header();
             <form id="login" name="form" action="<?php echo home_url(); ?>/login/" method="post" class="mt-[30px] grid">
                 <label for="">
                     <p class="text-[15px]">Email*</p>
-                    <input id="username" type="text" placeholder="Логин" name="username">
+                    <input id="username" name="username" type="text" placeholder="Логин" >
                 </label>
                 <label for="" class="mt-[20px]">
                     <p class="text-[15px]">Пароль*</p>
-                    <input id="password" type="password" placeholder="Пароль" name="password">
+                    <input id="password" name="password" type="password" placeholder="Пароль" >
                 </label>
                 <div class="flex justify-between items-center mt-[30px]">
                     <input id="submit" type="submit" name="submit" value="Войти">

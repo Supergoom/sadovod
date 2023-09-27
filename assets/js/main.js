@@ -62,21 +62,21 @@ jQuery(function ($) {
         );
 
         //подсказки при ховере
-        // $("[data-step-next]").mousemove(function (eventObject) {
-        //     $data_tooltip = $(this).attr("data-step-next");
+        $("[data-step-next]").mousemove(function (eventObject) {
+            $data_tooltip = $(this).attr("data-step-next");
 
-        //     $('#' + $data_tooltip).css({ 
-        //         "top" : eventObject.pageY + 15,
-        //         "left" : eventObject.pageX + 15
-        //       })
-        //       .show();
-        //     }).mouseout(function () {
-        //         $('#' + $data_tooltip).hide()
-        //         .css({
-        //             "top" : 0,
-        //             "left" : 0
-        //         });
-        // });
+            $('#' + $data_tooltip).css({ 
+                "top" : eventObject.pageY + 15,
+                "left" : eventObject.pageX + 15
+              })
+              .show();
+            }).mouseout(function () {
+                $('#' + $data_tooltip).hide()
+                .css({
+                    "top" : 0,
+                    "left" : 0
+                });
+        });
 
         //при нажатии на раен в шаге 2
         $('.rf-map').on('click', '[data-tooltip]', function(){    
@@ -94,6 +94,16 @@ jQuery(function ($) {
             nextArrow: '<button class="slick-next pull-right"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none"><path d="M25.9831 47.6688C37.9492 47.6688 47.6497 37.9683 47.6497 26.0021C47.6497 14.0359 37.9492 4.33545 25.9831 4.33545C14.0169 4.33545 4.31641 14.0359 4.31641 26.0021C4.31641 37.9683 14.0169 47.6688 25.9831 47.6688Z" stroke="#B3B3B3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M25.9831 17.3354L17.3164 26.0021L25.9831 34.6688" stroke="#B3B3B3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M34.6497 26H17.3164" stroke="#B3B3B3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>',
           });
 
+
+          //регистрация смены форм
+          $('.register-tabs-wrapper').each(function() {
+            let ths = $(this);
+            ths.find('.form-tab').not(':first').hide();
+            ths.find('.register-input-rol').click(function() {
+                ths.find('.register-input-rol').removeClass('active').eq($(this).index()).addClass('active');
+                ths.find('.form-tab').hide().eq($(this).index()).fadeIn()
+            }).eq(0).addClass('active');
+        });
     });    
 
 });

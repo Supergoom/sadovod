@@ -56,10 +56,10 @@ nav {
 }
 
 .header__nav nav a.heacer__sing-up {
-    width: 87px;
     height: 38px;
     color: var(--color-white);
-    font-size: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
     font-weight: 700;
     line-height: 18px;
     border-radius: 8px;
@@ -68,6 +68,13 @@ nav {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    padding: 0 24px;
+}
+
+.header__nav nav a.heacer__sing-in {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .header__nav nav a {
@@ -221,6 +228,7 @@ main {
 
 .rf-map .district {
     gap: 4px;
+    top: 30px;
 }
 
 .rf-map .district b {
@@ -562,6 +570,10 @@ footer {
     border: 1px solid #E1E1E1;
 }
 
+.logon form label {
+    width: 100%;
+}
+
 .logon form input[type="submit"] {
     display: inline-block;
     font-size: 18px;
@@ -589,17 +601,23 @@ footer {
     display: none;
     top:0px;
     left:0px;
-    width: 250px;
+    min-width: 264px;
+    width: max-content;
     background-color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
     color: #000;
-    border-radius: 5px; 
-    box-shadow: 0 1px 2px #555;
+    border-radius: 10px; 
+    border: 1px solid #E1E1E1;
   }
 
   .cnt-tooltip p {
-    margin: 0;
-    font-size: 12px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .cnt-tooltip p span {
+    font-size: 18px;
   }
 
 #authMap a {
@@ -617,10 +635,83 @@ footer {
     letter-spacing: 0px;
 }
 
-/* .stap-3 {
+.map-step__last-text-item.active {
+    color: var(--bg-main-blue);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.map-step__last {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.map-step__last svg {
+    width: 265px;
+}
+
+.map-step {
+    margin-top: 40px;
+}
+
+.map-step__last-text-row {
+    display: grid;
+    grid-template-columns: repeat(5, 125px);
+    gap: 20px 30px;
+    font-size: 14px;
+}
+
+.register-input-rol {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.register-input-rol::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--color-gray);
+    border-radius: 50%;
+}
+
+.register-input-rol:hover::before {
+    border-color: var(--bg-main-blue);
+}
+
+.register-input-rol.active::before {
+    border: 1px solid var(--bg-main-blue);
+}
+
+.register-input-rol.active::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--bg-main-blue);
+    position: absolute;
+    left: 7px;
+}
+
+.form-tab {
     display: none;
 }
 
-.stap-3.active {
+.form-tab.active {
     display: block;
-} */
+}
+
+@media (max-width: 1535px) {
+    .header__nav nav a {
+        font-size: 16px;
+    }
+
+    .header__nav nav ul {
+        gap: 50px;
+    }
+}
