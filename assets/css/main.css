@@ -4,7 +4,7 @@
     --font-family-main: 'Inter', sans-serif;
 
     --bg-main-blue: #2B70F9;
-    --bg-main: #F6F7F9;
+    --bg-main: #FAFAFA;
 
     --color-white: white;
     --color-gray: #A9A9A9;
@@ -33,6 +33,7 @@ body {
     line-height: normal;
     color: var( --color-text );
     line-height: 22px;
+    background: var(--bg-main);
 }
 
 h1 {
@@ -704,6 +705,39 @@ footer {
 
 .form-tab.active {
     display: block;
+}
+
+.account-card__item {
+    border-radius: 10px;
+    background: var(--color-white);
+    padding: 40px;
+}
+
+.account-card__title {
+    font-weight: 600;
+}
+
+.account-card__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-card__btn {
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 6px;
+    background: var(--bg-main-blue);
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding: 0 24px;
+}
+
+#wpadminbar {
+    top: auto !important;
+    bottom: 0;
 }
 
 @media (max-width: 1535px) {

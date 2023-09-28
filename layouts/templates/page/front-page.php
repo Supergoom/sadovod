@@ -6,11 +6,21 @@
 
 get_header();
 
-echo '<pre>';
-print_r(get_field('города'));
-echo '</pre>';
+$municipality = getMunicipality();
 
+$sntall = getSntAll();
+
+$snt = getSntByName('Рассвет');
+
+$snt_municipality  = getSntByMunicipality('Балаклавский МО');
+
+$res = getDataMunicipalityByName('Балаклавский МО');
+
+$result = getDataMunicipalityByCity('Севастополь');
 ?>
+<pre>
+    <?php print_r($result) ?>
+</pre>
 
 <main>
     <section class="title-section h-[426px] flex items-center">
@@ -98,7 +108,10 @@ echo '</pre>';
             </div>
         </div>
     </section>
+
+    <!-- Карта -->
     <?php get_template_part('layouts/templates/shared/section-map'); ?>
+
     <section class="mt-[60px] partner">
         <div class="container mx-auto px-4">
             <div class="section__title">Карта СНТ Севастополя</div>
@@ -136,12 +149,9 @@ echo '</pre>';
             </div>
         </div>
     </section>
-    <section class="message">
-        <div class="container mx-auto px-4">
-            <div class="section__title">Свяжитесь с нами</div>
 
-            <?php echo do_shortcode('[contact-form-7 id="b62d940" title="Contact form 1"]'); ?>
-        </div>
-    </section>
+    <!-- форма -->
+    <?php get_template_part('layouts/templates/shared/section-message'); ?>
+
 </main>
 <?php get_footer(); ?>

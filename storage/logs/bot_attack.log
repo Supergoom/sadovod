@@ -834,3 +834,278 @@ Script: /var/www/u2205630/data/www/gissnt.ru/index.php
 Request: /
 Root: /var/www/u2205630/data/www/gissnt.ru
 -------------------------------------
+New bot detected
+Date: 27 сентября 2023 16:51:20
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/plugins.php
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 91.215.251.203
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/plugins.php
+Request: /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro+3%2Facf.php&plugin_status=all&paged=1&s&_wpnonce=b36e290d0b
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 16:51:54
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/plugins.php
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 91.215.251.203
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/plugins.php
+Request: /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro+3%2Facf.php&plugin_status=all&paged=1&s&_wpnonce=b36e290d0b
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 16:52:38
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/plugins.php?plugin_status=all&paged=1&s
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 91.215.251.203
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/plugins.php
+Request: /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro+3%2Facf.php&plugin_status=all&paged=1&s&_wpnonce=b36e290d0b
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 16:53:43
+Domain: gissnt.ru
+Refferer: 
+User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 91.215.251.203
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/plugins.php
+Request: /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro+3%2Facf.php&plugin_status=all&paged=1&s&_wpnonce=b36e290d0b
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 16:54:39
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/plugins.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/plugins.php
+Request: /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro+3%2Facf.php&plugin_status=all&paged=1&s&_wpnonce=8c8a37ce3a
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 16:56:01
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/plugins.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/plugins.php
+Request: /wp-admin/plugins.php?action=activate&plugin=advanced-custom-fields-pro+3%2Facf.php&plugin_status=all&paged=1&s&_wpnonce=8c8a37ce3a
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 19:28:58
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 19:31:31
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/edit.php?post_type=acf-field-group
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 19:35:11
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 19:35:30
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/edit.php?post_type=acf-field-group
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 19:40:01
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/options-general.php
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:03:33
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:03:54
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:04:18
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:04:46
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:10:21
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:11:58
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:12:11
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:14:07
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:19:33
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=Add+SN%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:20:00
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:23:28
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 27 сентября 2023 20:23:42
+Domain: gissnt.ru
+Refferer: https://gissnt.ru/wp-admin/post.php?post=81&action=edit
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Http host: gissnt.ru
+Remote: 185.16.28.28
+Script: /var/www/u2205630/data/www/gissnt.ru/wp-admin/admin.php
+Request: /wp-admin/admin.php?page=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%B8%D1%82%D1%8C+%D0%A1%D0%9D%D0%A2
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 28 сентября 2023 08:06:55
+Domain: gissnt.ru
+Refferer: 
+User Agent: python-requests/2.31.0
+Http host: gissnt.ru
+Remote: 35.233.62.116
+Script: /var/www/u2205630/data/www/gissnt.ru/index.php
+Request: /
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
+New bot detected
+Date: 28 сентября 2023 08:06:55
+Domain: gissnt.ru
+Refferer: 
+User Agent: python-requests/2.31.0
+Http host: gissnt.ru
+Remote: 130.211.54.158
+Script: /var/www/u2205630/data/www/gissnt.ru/index.php
+Request: /
+Root: /var/www/u2205630/data/www/gissnt.ru
+-------------------------------------
