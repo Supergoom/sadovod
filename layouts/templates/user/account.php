@@ -47,17 +47,27 @@ endif;
 // profile-update.php - обрабатывает сохранение
 ?>
 <form action="<?php echo get_stylesheet_directory_uri() ?>/profile-update.php" method="POST">
-    <input type="text" name="first_name" placeholder="Имя" value="<?php echo $userdata->first_name ?>" />
-    <input type="text" name="last_name" placeholder="Фамилия" value="<?php echo $userdata->last_name ?>" />
-<!--    <input type="text" name="patronymic" placeholder="Отчество" value="--><?php //echo $userdata->first_name ?><!--" />-->
-    <input type="text" name="city" placeholder="Город" value="<?php echo get_user_meta($user_ID, 'city', true ) ?>" />
-    <input type="email" name="email" placeholder="Email" value="<?php echo $userdata->user_email ?>" />
 
-    <input type="password" name="pwd1" placeholder="Старый пароль" />
-    <input type="password" name="pwd2" placeholder="Новый пароль" />
-    <input type="password" name="pwd3" placeholder="Повторите новый пароль" />
+    <input type="text" name="last_name" placeholder="Фамилия" value="<?php echo $userdata->last_name ?>" /><br>
+    <input type="text" name="first_name" placeholder="Имя" value="<?php echo $userdata->first_name ?>" /><br>
+    <input type="text" name="patronymic" placeholder="Отчество" value="<?php echo get_user_meta($user_ID, 'patronymic', true ); ?>" /><br>
+    <input type="text" name="tel" placeholder="Телефон" value="<?php echo get_user_meta($user_ID, 'tel', true ) ?>" /><br>
+    <input type="email" name="email" placeholder="Email" value="<?php echo $userdata->user_email ?>" /><br>
+
+    <?php if (get_user_meta($user_ID, 'namesnt', true )) ?>
+        <input type="text" name="namesnt" placeholder="Название СНТ" value="<?php echo get_user_meta($user_ID, 'namesnt', true ) ?>" /><br>
+    <?php if (get_user_meta($user_ID, 'cadastral_num', true )) ?>
+        <input type="text" name="cadastral_num" placeholder="Кадастровый номер" value="<?php echo get_user_meta($user_ID, 'cadastral_num', true ) ?>" /><br>
+    <?php if (get_user_meta($user_ID, 'address', true )) ?>
+        <input type="text" name="address" placeholder="Адрес" value="<?php echo get_user_meta($user_ID, 'address', true ) ?>" /><br>
+
+
+    <input type="password" name="pwd1" placeholder="Старый пароль" /><br>
+    <input type="password" name="pwd2" placeholder="Новый пароль" /><br>
+    <input type="password" name="pwd3" placeholder="Повторите новый пароль" /><br>
 
     <button>Сохранить</button>
 </form>
 
+    <br><br><a href="<?php echo wp_logout_url( home_url() ); ?>" title="Выход">Выход</a>
 <?php get_footer(); ?>
