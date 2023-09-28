@@ -6,21 +6,7 @@
 
 get_header();
 
-$municipality = getMunicipality();
-
-$sntall = getSntAll();
-
-$snt = getSntByName('Рассвет');
-
-$snt_municipality  = getSntByMunicipality('Балаклавский МО');
-
-$res = getDataMunicipalityByName('Балаклавский МО');
-
-$result = getDataMunicipalityByCity('Севастополь');
 ?>
-<pre>
-    <?php print_r($result) ?>
-</pre>
 
 <main>
     <section class="title-section h-[426px] flex items-center">
