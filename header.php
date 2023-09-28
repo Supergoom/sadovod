@@ -87,9 +87,10 @@
                             <a href="">Контакты</a>
                         </li>
                     </ul>
-                    <div class="flex gap-[20px]">
+                    <div class="flex gap-[20px] items-center">
                         <?php if (!is_user_logged_in()) : ?>
-                            <a href="/login" class="heacer__sing-up">Войти</a>
+                            <a href="/login" class="heacer__sing-in">Войти</a>
+                            <a href="/register" class="heacer__sing-up">Регистрация</a>
                         <?php else : ?>
                             <a href="#">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
