@@ -27,6 +27,7 @@ include_once('includes/category.php');
 include_once('includes/nav.php');
 include_once('includes/path.php');
 include_once('includes/reports.php');
+include_once('includes/profile-update.php');
 
 /*  Установка --------------------------------*/
 include_once('includes/install.php');
@@ -58,70 +59,73 @@ include_once('modules/upscale/main.php');
 
 if (wp_doing_ajax()) {
     include_once('requests/user_message.php');
-	include_once('requests/filter-blog.php');
+    include_once('requests/filter-blog.php');
 };
 
-// Перенаправление со страниц входа
-
-//function custom_login()
-//{
-//    echo header("Location: " . get_bloginfo('url') . "/login");
-//}
-//
-//add_action('login_head', 'custom_login');
-
-//function login_link_url($url)
-//{
-//    $url = get_bloginfo('url') . "/login";
-//    return $url;
-//}
-//add_filter( 'login_url', 'login_link_url', 10, 2 );
-
-//Redirect for login from wp-login.php to my-account if not admin
-//add_action('init', 'prevent_wp_login');
-//function prevent_wp_login() {
-//    // WP tracks the current page - global the variable to access it
-//    global $pagenow;
-//    // Check if a $_GET['action'] is set, and if so, load it into $action variable
-//    $action = (isset($_GET['action'])) ? $_GET['action'] : '';
-//
-//    //check if we came from the admin page or wp-admin
-//    $refer = urlencode($_SERVER["REQUEST_URI"]);
-//    if (strpos($refer, 'wp-admin') !== false) {
-//        wp_redirect('/wp-login.php');
-//    } else {
-//        // Check if we're on the login page, and ensure the action is not 'logout'
-//        if( $pagenow === 'wp-login.php' && ( ! $action || ( $action && ! in_array($action, array('logout', 'lostpassword', 'rp', 'resetpass'))))) {
-//            // Load the home page url
-//            // Redirect to the home page
-//            wp_redirect('/login/');
-//            // Stop execution to prevent the page loading for any reason
-//            exit();
-//        }
-//    }
-//}
-
-// Перенаправление на страницу регистрации
-
-function register_link_url( $url ) {
-    if ( ! is_user_logged_in() ) {
-        if ( get_option('users_can_register') )
-            $url = '<li><a href="' . get_bloginfo( 'url' ) . "/register" . '">' . __('Register', 'yourtheme') . '</a></li>';
-        else  $url = '';
-    } else {
-        $url = '<li><a href="' . admin_url() . '">' . __('Site Admin', 'yourtheme') . '</a></li>';
-    }
-    return $url;
-}
-add_filter( 'register', 'register_link_url', 10, 2 );
+/*   Дополнительные поля пользователя ------------------------------*/
+include_once('settings/fields/user_fields.php');
+include_once('settings/fields/admin_fields.php');
 
 
-/*  Elementor HEADER - Blog ----------------------------------------------*/
-/*
-if (!function_exists('hello_elementor_body_open')) {
-    function hello_elementor_body_open()
-    {
-        wp_body_open();
-    }
-}
-*/
+/*   Регистрация пользователя ------------------------------*/
+include_once('registration/user.php');
+
+
+function admin_js()
+{
+?><script>
+        jQuery(document).ready(function($) {
+            $('tr:not(.acf-clone) .acf-table [data-key="field_6515696bdbf81"]').each(function(index) {
+                let val = $(this).find('.acf-accordion-content [data-name="name_municipality"] .acf-input input').val();
+                if (val) {
+                    $(this).find('.acf-accordion-title label').html(val);
+                }
+            });
+        });
+    </script><?php
+            }
+            add_action('admin_head', 'admin_js');
+
+
+
+            // Перенаправление со страниц входа
+
+            //add_action( 'init', 'level_check' );
+            //
+            //function level_check() {
+            //    // is_admin() will let us know if we're in admin pages
+            //    // only admins can 'update_core' and 'list_users'
+            //    if ( is_admin() && !current_user_can( 'update_core' ) && !current_user_can( 'list_users' ) ) {
+            //        // redirect or whatever here
+            //        echo "not permitted";
+            //        die();
+            //    }
+            //}
+
+            //function custom_login() {
+            //    echo header("Location: " . get_bloginfo( 'url' ) . "/login");
+            //}
+            //
+            //add_action('login_head', 'custom_login');
+            //
+            //function login_link_url( $url ) {
+            //    $url = get_bloginfo( 'url' ) . "/login";
+            //    return $url;
+            //}
+            //add_filter( 'login_url', 'login_link_url', 10, 2 );
+
+            // Перенаправление на страницу регистрации
+
+            function register_link_url($url)
+            {
+                if (!is_user_logged_in()) {
+                    if (get_option('users_can_register'))
+                        $url = '<li><a href="' . get_bloginfo('url') . "/register" . '">' . __('Register', 'yourtheme') . '</a></li>';
+                    else  $url = '';
+                } else {
+                    $url = '<li><a href="' . admin_url() . '">' . __('Site Admin', 'yourtheme') . '</a></li>';
+                }
+                return $url;
+            }
+
+            add_filter('register', 'register_link_url', 10, 2);

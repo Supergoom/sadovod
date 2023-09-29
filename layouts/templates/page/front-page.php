@@ -6,8 +6,50 @@
 
 get_header();
 
+$fields = get_fields('options');
+
+foreach ($fields['city'] as $key => $value) {
+
+    if (is_array($value['municipality'])) {
+        foreach ($value['municipality'] as $k => $v) {
+
+            $field[] = [
+                'city' =>  $value['name_city'],
+                'municipality' => $v['name_municipality'],
+                'snt' => $v['snt'],
+            ];
+        }
+    } else {
+        $field[] = [
+            'city' =>  $value['name_city'],
+            'municipality' => $value['municipality'],
+            'snt' => '',
+        ];
+    }
+}
+
+foreach ($field as $i => $w) {
+    if (is_array($w['snt'])) {
+        foreach ($w['snt'] as $s => $m) {
+            $res[] = [
+                'city' => $w['city'],
+                'municipality' => $w['municipality'],
+                'snt' => $m['name_snt'],
+                'link_maps' => $m['link_maps'],
+            ];
+        }
+    } else {
+        $res[] = [
+            'city' => $w['city'],
+            'municipality' => $w['municipality'],
+            'snt' => '',
+            'link_maps' => '',
+        ];
+    }
+}
+
 echo '<pre>';
-print_r(get_field('города'));
+print_r($res);
 echo '</pre>';
 
 ?>
@@ -98,7 +140,10 @@ echo '</pre>';
             </div>
         </div>
     </section>
+
+    <!-- Карта -->
     <?php get_template_part('layouts/templates/shared/section-map'); ?>
+
     <section class="mt-[60px] partner">
         <div class="container mx-auto px-4">
             <div class="section__title">Карта СНТ Севастополя</div>
@@ -136,12 +181,9 @@ echo '</pre>';
             </div>
         </div>
     </section>
-    <section class="message">
-        <div class="container mx-auto px-4">
-            <div class="section__title">Свяжитесь с нами</div>
 
-            <?php echo do_shortcode('[contact-form-7 id="b62d940" title="Contact form 1"]'); ?>
-        </div>
-    </section>
+    <!-- форма -->
+    <?php get_template_part('layouts/templates/shared/section-message'); ?>
+
 </main>
 <?php get_footer(); ?>

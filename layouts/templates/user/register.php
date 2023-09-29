@@ -52,21 +52,21 @@ if ($user_ID) {
         //            $errors['terms'] = "Вы должны согласиться с Условиями использования";
         //        }
         // если ошибок нет
-        var_dump($_REQUEST);
-        if (0 === count($errors)) {
 
-            $password = $_POST['password'];
-
-            $new_user_id = wp_create_user($username, $password, $email);
-
-            // Здесь вы можете делать все, что угодно, например, отправлять электронное письмо пользователю и т. д.
-
-            $success = 1;
-
-            header('Location:' . get_bloginfo('url') . '/login/?success=1&u=' . $username);
-        } else {
-            $message = 'Есть ошибки в заполнении формы';
-        }
+//        if (0 === count($errors)) {
+//
+//            $password = $_POST['password'];
+//
+//            $new_user_id = wp_create_user($username, $password, $email);
+//
+//            // Здесь вы можете делать все, что угодно, например, отправлять электронное письмо пользователю и т. д.
+//
+//            $success = 1;
+//
+//            header('Location:' . get_bloginfo('url') . '/login/?success=1&u=' . $username);
+//        } else {
+//            $message = 'Есть ошибки в заполнении формы';
+//        }
     }
 }
 ?>
@@ -92,13 +92,14 @@ if ($user_ID) {
                     <div class="register-input-rol">Не являюсь собственником</div>
                 </div>
                 <div class="tabs-content">
-                    <div class="form-tab active"><?php echo do_shortcode('[contact-form-7 id="4b41cf2" title="Запрос на регистрацию пользователя"]'); ?></div>
+                    <div class="form-tab active"><?php echo do_shortcode('[contact-form-7 id="4b41cf2" title="Запрос на регистрацию собственника"]'); ?></div>
                     <div class="form-tab">Форма для обывателя</div>
                 </div>
             </div>
         </div>
     </div>
 </main>
+
 <?php
 get_footer();
 ?>

@@ -84,7 +84,7 @@
                             <a href="">Список СНТ</a>
                         </li>
                         <li>
-                            <a href="">Контакты</a>
+                            <a href="/contacts">Контакты</a>
                         </li>
                     </ul>
                     <div class="flex gap-[20px] items-center">
