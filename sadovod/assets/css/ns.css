@@ -1,0 +1,18 @@
+:root{
+	--box-shadow: 0px 4px 4px 0px var(--box-shadow-color);
+}
+
+#sertificate-carouse .slick-prev,
+#sertificate-carouse .slick-next{line-height: 30px;}
+
+#sertificate-carouse .slick-prev:hover,
+#sertificate-carouse .slick-next:hover{background-color: var(--color-success);}
+
+#sertificate-carouse .slick-prev:focus,
+#sertificate-carouse .slick-next:focus{color: var(--color-bright);}
+
+#sertificate-carouse .slick-prev:before, 
+#sertificate-carouse .slick-next:before{font-size: 16px;}
+
+#sertificate-carouse .slick-prev {left: 10px;}
+#sertificate-carouse .slick-next {right: 10px;}

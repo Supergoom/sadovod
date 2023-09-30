@@ -1,0 +1,1907 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sadovod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 20:31+0000\n"
+"PO-Revision-Date: 2023-05-03 19:34+0000\n"
+"Last-Translator: Никита Шишковский\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: sadovod"
+
+#: layouts/list/file.php:38 layouts/card/post/file.php:47
+#: layouts/search/post/file.php:21 layouts/feed/post/file.php:21
+#, php-format
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d файл"
+msgstr[1] "%d файла"
+msgstr[2] "%d файлов"
+
+#: layouts/widgets/user.php:22
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] "%s записи"
+msgstr[1] "%s записей"
+msgstr[2] "%s записей"
+
+#: layouts/widgets/comments.php:33 layouts/widgets/comments.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Старые комментарии"
+
+#: layouts/widgets/comments.php:10
+#, php-format
+#| msgid "<span>%1$s</span> Response to %2$s"
+#| msgid_plural "<span>%1$s</span> Responses to %2$s"
+msgid "<span>%1$s</span> response to %2$s"
+msgid_plural "<span>%1$s</span> responses to %2$s"
+msgstr[0] "<span>%1$s</span> комментарий к записи %2$s"
+msgstr[1] "<span>%1$s</span> комментария к записи %2$s"
+msgstr[2] "<span>%1$s</span> комментариев к записи %2$s"
+
+#: footer.php:430 settings/menu/user.php:106 settings/menu/user.php:123
+msgid "Account"
+msgstr "Аккаунт"
+
+#: settings/control/slider.php:216
+msgid "Add"
+msgstr "Добавить"
+
+#: footer.php:895 requests/record_data.php:45
+msgid "Add media"
+msgstr "Добавить медиа"
+
+#: footer.php:786
+msgid "Add new members"
+msgstr "Добавить новых участников"
+
+#: layouts/profile.php:188
+msgid "Add to contacts"
+msgstr "Добавить в контакты"
+
+#: footer.php:1123 footer.php:1185 footer.php:1253
+msgid "Add to support list"
+msgstr "Добавить в список"
+
+#: settings/control/slider.php:115 settings/control/slider.php:196
+msgid "Additional text"
+msgstr "Дополнительный текст"
+
+#: layouts/profile.php:239
+msgid "All"
+msgstr "Все"
+
+#: settings/sidebar/widgets/popular_authors.php:95
+msgid "All authors"
+msgstr "Все авторы"
+
+#: layouts/widgets/filter.php:13
+msgid "All news"
+msgstr "Все новости"
+
+#: settings/sidebar/widgets/popular_posts.php:180
+#: settings/sidebar/widgets/popular_authors.php:159
+#: settings/sidebar/widgets/viewed_posts.php:189
+msgid "All post types"
+msgstr "Все типы записей"
+
+#: footer.php:552
+msgid "All ready to proceed"
+msgstr "Все готово к продолжению"
+
+#: footer.php:1296
+#, php-format
+msgid ""
+"Also you can vizit our support forum <a href=\"%s\" target=\"_blank\">%s</a>."
+msgstr ""
+"Также вы можете посетить наш форум поддержки <a href=\"%s\" "
+"target=\"_blank\">%s</a>."
+
+#: modules/slugify/menu/converter.php:281
+msgid ""
+"Also, you have to make a copy of your media files if the attachment post "
+"type is selected for\n"
+"\t\t\t\tconversion."
+msgstr ""
+"Также, вам надо сделать копию ваших медиафайлов, если тип записи attachment "
+"был выбран для конвертации. "
+
+#: requests/user_proposal.php:59
+msgid "Amount"
+msgstr "Количество"
+
+#: settings/setup.php:349
+msgid "API Key"
+msgstr "Ключ апи"
+
+#: requests/user_proposal.php:35
+msgid "Append record"
+msgstr "Прикрепить запись"
+
+#: layouts/widgets/filter.php:108
+msgid "Apply"
+msgstr "Применить"
+
+#: settings/sidebar/archive.php:7
+msgid "Archive Sidebar"
+msgstr "Боковая панель списка записей"
+
+#: modules/slugify/menu/converter.php:300
+msgid "Are you sure to continue?"
+msgstr "Вы уверены, что хотите продолжить?"
+
+#: footer.php:1098
+msgid "Author requests"
+msgstr "Запросы автора"
+
+#: settings/menu/user.php:178
+msgid "Authorize, to view your wallet info"
+msgstr "Войдите, чтобы увидеть данные кошелька."
+
+#: footer.php:174 footer.php:1479
+#, php-format
+#| msgid ""
+#| "By submitting this form you agree to our <a href=\"%s\">privacy policy</a>"
+#| "."
+msgid ""
+"By submitting this form you agree to our <a href=\"%s\" target=\"_blank\">"
+"privacy policy</a>."
+msgstr ""
+"Отправляя эту форму, вы соглашаетесь с нашей <a href=\"%s\" "
+"target=\"_blank\">политикой конфиденциальности</a>."
+
+#: modules/slugify/menu/converter.php:304
+msgid "Cancel"
+msgstr "Отмена"
+
+#: layouts/widgets/comments.php:91
+msgid "Cancel reply"
+msgstr "Отменить"
+
+#: settings/setup.php:1001
+msgid "Captcha Settings"
+msgstr "Настройки капчи"
+
+#: settings/menu/user.php:15
+msgid "Cart"
+msgstr "Корзина"
+
+#: footer.php:1005
+msgid "Category Name"
+msgstr "Название категории"
+
+#: settings/menu/dropdown.php:87
+msgid "Center dropdown"
+msgstr "Центрировать выпадающий список"
+
+#: layouts/profile.php:218
+msgid "Change avatar"
+msgstr "Сменить аватар"
+
+#: requests/record_data.php:157
+msgid "Change record data"
+msgstr "Изменить данных записи"
+
+#: requests/record_data.php:24
+msgid "Change record info"
+msgstr "Изменить основную информацию записи"
+
+#: requests/record_data.php:81
+msgid "Change record location"
+msgstr "Изменить раздел записи"
+
+#: footer.php:760
+msgid "Channel info"
+msgstr "Информация о канале"
+
+#: footer.php:698 footer.php:778
+msgid "Channel Name"
+msgstr "Название канала"
+
+#: requests/channel_search.php:21 requests/record_search.php:116
+msgid "Channels"
+msgstr "Каналы"
+
+#: layouts/widgets/category.php:28 layouts/widgets/filter.php:19
+msgid "Choose category"
+msgstr "Выберите категорию"
+
+#: footer.php:856 requests/record_data.php:103
+msgid "Choose post type"
+msgstr "Выберите тип публикации"
+
+#: footer.php:881 requests/record_data.php:131
+msgid "Choose record category"
+msgstr "Выберите категорию записи"
+
+#: footer.php:863 requests/record_data.php:111
+msgid "Choose record theme"
+msgstr "Выберите тему записи"
+
+#: footer.php:849
+msgid "Choose record type"
+msgstr "Выберите тип записи"
+
+#: layouts/widgets/filter.php:109
+msgid "Clear"
+msgstr "Очистить"
+
+#: footer.php:610
+msgid "Clear the channel"
+msgstr "Очистить канал"
+
+#: footer.php:1351
+msgid "Click to select file"
+msgstr "Нажмите, чтобы выбрать с устройства"
+
+#: layouts/profile.php:124
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Комментарий"
+msgstr[1] "Комментария"
+msgstr[2] "Комментариев"
+
+#: requests/user_proposal.php:71
+msgid "Commentary"
+msgstr "Комментарий"
+
+#: layouts/widgets/comments.php:57
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. Name of the template
+msgid "Community"
+msgstr "Сообщетсво"
+
+#: layouts/profile.php:150
+msgid "Contact"
+msgid_plural "Contacts"
+msgstr[0] "Контакты"
+msgstr[1] "Контакта"
+msgstr[2] "Контакты"
+
+#: requests/contact_add.php:21
+msgid "Contact has been successfully saved!"
+msgid_plural "Contacts has been successfully saved!"
+msgstr[0] "Контакт был успешно сохранен!"
+msgstr[1] "Контакта были успешно сохранены!"
+msgstr[2] "Контактов были успешно сохранены!"
+
+#: footer.php:1291 footer.php:1558
+msgid "Contact us"
+msgstr "Связаться с нами"
+
+#: requests/channel_search.php:34 requests/contact_search.php:31
+#: requests/record_search.php:57
+msgid "Contacts"
+msgstr "Контакты"
+
+#: footer.php:931
+msgid "Continue"
+msgstr "Продолжить"
+
+#: modules/slugify/menu/converter.php:347
+msgid "Convert Existing Slugs"
+msgstr "Конвертировать существующие ярлыки"
+
+#: settings/setup.php:368
+msgid "Copyright"
+msgstr "Лицензирование"
+
+#: settings/setup.php:958
+msgid "Count of requests sent and received in second."
+msgstr "Количество отправленных и полученных запросов в секунду."
+
+#: footer.php:711 footer.php:934 footer.php:974 footer.php:1011
+msgid "Create"
+msgstr "Создать"
+
+#: footer.php:555 footer.php:636
+msgid "Create channel"
+msgstr "Создать канал"
+
+#: footer.php:986
+msgid "Create new category"
+msgstr "Создать новую категорию"
+
+#: footer.php:673
+msgid "Create new channel"
+msgstr "Создать новый канал"
+
+#: footer.php:1561
+msgid "Create new record"
+msgstr "Создать новую запись"
+
+#: footer.php:946
+msgid "Create new theme"
+msgstr "Создать новую тему"
+
+#: footer.php:833
+msgid "Create record"
+msgstr "Создать запись"
+
+#: settings/sidebar/widgets/popular_posts.php:179
+#: settings/sidebar/widgets/popular_authors.php:158
+#: settings/sidebar/widgets/viewed_posts.php:188
+msgid "Current post type"
+msgstr "Текущий тип записи"
+
+#: settings/setup.php:58 settings/setup.php:486 settings/setup.php:670
+msgid "Dark Theme Logo"
+msgstr "Логотип для темной темы"
+
+#: settings/setup.php:840
+msgid "Days till profile delition"
+msgstr "Дней до удаления профиля"
+
+#: layouts/profile.php:163
+msgid "Deal"
+msgid_plural "Deals"
+msgstr[0] "Сделка"
+msgstr[1] "Сделки"
+msgstr[2] "Сделок"
+
+#: footer.php:433
+msgid "Delete account"
+msgstr "Удалить учетную запись"
+
+#: layouts/single.php:25 layouts/single/default.php:27
+#: layouts/single/project.php:28 layouts/single/job.php:36
+#: layouts/single/resource.php:29 layouts/single/post/default.php:27
+#: layouts/single/post/survey.php:27 layouts/single/post/news.php:27
+#: layouts/single/post/file.php:27 layouts/single/post/story.php:27
+#: layouts/single/post/idea.php:27 layouts/single/post/article.php:27
+msgid "Delete record"
+msgstr "Удалить запись"
+
+#: settings/setup.php:862
+msgid "Devmode return code"
+msgstr "Код ответа"
+
+#: settings/setup.php:846
+msgid "Devmode Settings"
+msgstr "Настройки режима разработки"
+
+#: settings/setup.php:228
+msgid "Differences slider settings"
+msgstr "Настройки слайдера различий"
+
+#: settings/setup.php:297
+msgid "Display Settings"
+msgstr "Настройки отображения"
+
+#: settings/menu/icon.php:19
+msgid "Don't Show Title"
+msgstr "Не показывать название"
+
+#: requests/user_proposal.php:47
+msgid "Don’t append"
+msgstr "Не прикреплять"
+
+#: footer.php:1349
+#| msgid "Drop file here"
+msgid "Drop file(s) here"
+msgstr "Поместите файл(ы) сюда"
+
+#: settings/menu/dropdown.php:10 settings/menu/dropdown.php:18
+#: settings/menu/dropdown.php:122 settings/menu/dropdown.php:139
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: footer.php:155 footer.php:401 footer.php:1320 footer.php:1403
+#: footer.php:1465 layouts/profile.php:95
+msgid "E-mail"
+msgstr "Почта"
+
+#: footer.php:790
+msgid "Edit existing members"
+msgstr "Изменить участников"
+
+#: footer.php:334 layouts/profile.php:53
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: footer.php:1033 layouts/single.php:24 layouts/single/default.php:26
+#: layouts/single/project.php:27 layouts/single/job.php:35
+#: layouts/single/resource.php:28 layouts/single/post/default.php:26
+#: layouts/single/post/survey.php:26 layouts/single/post/news.php:26
+#: layouts/single/post/file.php:26 layouts/single/post/story.php:26
+#: layouts/single/post/idea.php:26 layouts/single/post/article.php:26
+msgid "Edit record"
+msgstr "Изменить запись"
+
+#: layouts/profile.php:56
+msgid "Edit user"
+msgstr "Изменить пользователя"
+
+#: layouts/profile.php:285 layouts/single/job.php:246
+msgid "Education"
+msgstr "Образование"
+
+#: config/theme.php:425
+#, php-format
+msgid "Effective directive: %s"
+msgstr "Действующая директива: %s"
+
+#: footer.php:420 settings/menu/user.php:205
+msgid "Enable advanced notifications"
+msgstr "Включить расширенные уведомления"
+
+#: settings/setup.php:854
+msgid "Enable devmode"
+msgstr "Включить режим разработки"
+
+#: layouts/single/project.php:216
+msgid "End date"
+msgstr "Дата окончания"
+
+#: requests/user_proposal.php:60
+msgid "Enter amount"
+msgstr "Введите количество"
+
+#: layouts/widgets/comments.php:67
+msgid "Enter Comment"
+msgstr "Введите комментарий"
+
+#: footer.php:969
+msgid "Enter description"
+msgstr "Введите описание"
+
+#: footer.php:156 footer.php:402 footer.php:1321 footer.php:1404
+#: footer.php:1466
+msgid "Enter e-mail"
+msgstr "Введите адрес эл. почты"
+
+#: footer.php:906 requests/record_data.php:58
+msgid "Enter full description"
+msgstr "Введите развернутое описание"
+
+#: footer.php:351
+msgid "Enter lastname"
+msgstr "Введите фамилию"
+
+#: footer.php:148 footer.php:347 footer.php:1317 footer.php:1458
+msgid "Enter name"
+msgstr "Введите имя"
+
+#: footer.php:1006
+msgid "Enter name of category"
+msgstr "Введите название категории"
+
+#: footer.php:699 footer.php:780
+msgid "Enter name of channel"
+msgstr "Введите название канала"
+
+#: footer.php:965
+msgid "Enter name of theme"
+msgstr "Введите название темы"
+
+#: footer.php:274 footer.php:408
+msgid "Enter new password"
+msgstr "Введите новый пароль"
+
+#: footer.php:280 footer.php:414
+msgid "Enter new password again"
+msgstr "Введите новый пароль еще раз"
+
+#: footer.php:99 footer.php:165 footer.php:1409 footer.php:1471
+msgid "Enter password"
+msgstr "Введите пароль"
+
+#: footer.php:355
+msgid "Enter patronymic"
+msgstr "Введите отчество"
+
+#: footer.php:902 footer.php:903 requests/record_data.php:54
+#: requests/record_data.php:55
+msgid "Enter short description"
+msgstr "Введите краткое описание"
+
+#: footer.php:152
+msgid "Enter surname"
+msgstr "Введите фамилию"
+
+#: footer.php:971
+msgid "Enter theme description"
+msgstr "Введите описание темы"
+
+#: footer.php:899 requests/record_data.php:50 requests/record_data.php:51
+msgid "Enter title"
+msgstr "Введите название"
+
+#: footer.php:94 footer.php:222 footer.php:1527
+msgid "Enter username"
+msgstr "Введите имя"
+
+#: requests/user_proposal.php:72
+msgid "Enter your commentary"
+msgstr "Введите свой комментарий"
+
+#: footer.php:1325
+msgid "Enter your message"
+msgstr "Введите ваше сообщение"
+
+#: footer.php:647
+msgid "Enter your text here..."
+msgstr "Введите Ваш текст здесь..."
+
+#: layouts/widgets/filter.php:14
+msgid "Favorites"
+msgstr "Избранные"
+
+#. Name of the template
+msgid "Feed"
+msgstr "Лента"
+
+#: settings/sidebar/feed.php:7
+msgid "Feed Sidebar"
+msgstr "Боковая панель ленты"
+
+#: settings/setup.php:773
+msgid "File upload Settings"
+msgstr "Настройки загрузки файла"
+
+#: footer.php:1328 layouts/templates/community.php:136
+#: layouts/single/post/file.php:58
+msgid "Files"
+msgstr "Файлы"
+
+#: layouts/widgets/filter.php:49
+msgid "Filter"
+msgstr "Фильтр"
+
+#: footer.php:544 footer.php:723
+msgid "Find contacts"
+msgstr "Поиск контактов"
+
+#: settings/setup.php:356
+msgid "Footer Settings"
+msgstr "Настройки подвала"
+
+#: layouts/card/project.php:59 layouts/card/project.php:81
+#: layouts/card/project.php:103 layouts/search/project.php:29
+#: layouts/search/project.php:42 layouts/search/project.php:55
+#: layouts/feed/project.php:29 layouts/feed/project.php:42
+#: layouts/feed/project.php:55
+#| msgid "From "
+msgid "From"
+msgstr "из"
+
+#: footer.php:1118 layouts/single/project.php:204
+msgid "Fund limit"
+msgstr "Лимит"
+
+#: footer.php:1114 layouts/single/project.php:196
+msgid "Fund target"
+msgstr "Цель"
+
+#: footer.php:1110 layouts/single/project.php:189
+msgid "Funded"
+msgstr "Собрано"
+
+#: footer.php:1106 requests/user_proposal.php:32
+#| msgid "Founding"
+msgid "Funding"
+msgstr "Инвестиции"
+
+#: layouts/search/project.php:28 layouts/single/project.php:45
+#: layouts/feed/project.php:28
+msgid "Funds"
+msgstr "Средства"
+
+#: footer.php:344 footer.php:399
+msgid "General"
+msgstr "Основное"
+
+#: requests/contact_search.php:69
+msgid "Global search"
+msgstr "Глобальный поиск"
+
+#: layouts/profile.php:178
+msgid "Go"
+msgstr "Перейти"
+
+#: layouts/card/no-result.php:4 layouts/feed/no-result.php:4
+msgid "Go back."
+msgstr "Назад."
+
+#: settings/setup.php:983
+msgid "Google project number"
+msgstr "Номер проекта Google"
+
+#: settings/setup.php:994
+msgid "Google push API key"
+msgstr "Ключ Push API Google"
+
+#: config/theme.php:423
+#, php-format
+msgid "Got blocked url: %s"
+msgstr "Заблокирован url: %s"
+
+#: settings/setup.php:587
+msgid "Halloween Settings"
+msgstr "Настройки Хэллоуина"
+
+#: footer.php:427
+msgid "Hide account"
+msgstr "Скрыть учетную запись"
+
+#: settings/setup.php:392
+msgid "Holidays Settings"
+msgstr "Настройки праздников"
+
+#. Name of the template
+#: settings/setup.php:157
+msgid "Home"
+msgstr "Главная"
+
+#: settings/setup.php:147
+msgid "Home Settings"
+msgstr "Настройки главной"
+
+#: settings/control/slider.php:91 settings/control/slider.php:158
+msgid "Icon"
+msgstr "Иконка"
+
+#: layouts/templates/community.php:209
+msgid "Ideas"
+msgstr "Идеи"
+
+#: footer.php:1292
+msgid "If you have idea, comentary or remark - send this form."
+msgstr ""
+"Если у вас есть идея, комментарий или замечание - отправьте нам эту форму."
+
+#: modules/slugify/menu/converter.php:271
+msgid "Important:"
+msgstr "Важно:"
+
+#: layouts/card/resource.php:55 layouts/search/resource.php:30
+#: layouts/single/resource.php:83 layouts/feed/resource.php:30
+#, php-format
+msgid "In stock %d item"
+msgid_plural "In stock %d items"
+msgstr[0] "В наличии %d штука"
+msgstr[1] "В наличии %d штуки"
+msgstr[2] "В наличии %d штук"
+
+#: config/lang.php:109
+msgid "Info"
+msgstr "Информация"
+
+#: settings/setup.php:186 layouts/templates/front-page.php:48
+msgid "Interface preview"
+msgstr "Превью интерфейса"
+
+#: footer.php:794
+msgid "Invite users by sharing this link"
+msgstr "Пригласите пользователей, поделившись этой ссылкой"
+
+#: settings/menu/icon.php:12
+msgid "Item Icon"
+msgstr "Иконка"
+
+#: layouts/profile.php:9 layouts/card/user.php:56 layouts/search/user.php:42
+#: layouts/feed/user.php:42
+msgid "Job"
+msgid_plural "Jobs"
+msgstr[0] "Работа"
+msgstr[1] "Работы"
+msgstr[2] "Работ"
+
+#: settings/sidebar/job.php:7
+msgid "Job Sidebar"
+msgstr "Боковая панель списка работ"
+
+#. Name of the template
+#: layouts/search/project.php:54 layouts/single/project.php:61
+#: layouts/feed/project.php:54
+msgid "Jobs"
+msgstr "Работы"
+
+#: settings/setup.php:85
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: layouts/profile.php:337
+msgid "Last reviews"
+msgstr "Последние отзывы"
+
+#: footer.php:350
+msgid "Lastname"
+msgstr "Фамилия"
+
+#: layouts/widgets/comments.php:85
+msgid "Leave a Reply"
+msgstr "Оставить комментарий"
+
+#: layouts/widgets/comments.php:86
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Оставить комментарий на %s"
+
+#: footer.php:622
+msgid "Leave the channel"
+msgstr "Выйти из канала"
+
+#: config/theme.php:436
+#, php-format
+msgid "Line: %s. Column: %s"
+msgstr "Строка: %s. Столбец: %s"
+
+#: settings/control/slider.php:97 settings/control/slider.php:172
+msgid "Link"
+msgstr "Ссылка"
+
+#: settings/menu/classes.php:11
+msgid "Link classes"
+msgstr "CSS класы ссылки"
+
+#: layouts/profile.php:75 layouts/single/default.php:58
+#: layouts/single/project.php:359 layouts/single/job.php:275
+#: layouts/single/resource.php:213 layouts/single/post/default.php:58
+#: layouts/single/post/survey.php:58 layouts/single/post/news.php:58
+#: layouts/single/post/file.php:67 layouts/single/post/story.php:58
+#: layouts/single/post/idea.php:58 layouts/single/post/article.php:58
+msgid "Location"
+msgstr "Местоположение"
+
+#: layouts/profile.php:200 layouts/single/project.php:109
+#: layouts/single/job.php:171 layouts/single/resource.php:134
+#: settings/menu/user.php:16
+msgid "Log In"
+msgstr "Вход"
+
+#: layouts/profile.php:199 layouts/single/project.php:108
+#: layouts/single/job.php:170 layouts/single/resource.php:133
+msgid "Log in to contact user"
+msgstr "Войдите, чтобы связаться с"
+
+#: settings/menu/user.php:18
+msgid "Log Out"
+msgstr "Выход"
+
+#: footer.php:80 footer.php:103 footer.php:133 footer.php:207 footer.php:1390
+#: footer.php:1413 footer.php:1443 footer.php:1512 settings/menu/user.php:180
+msgid "Login"
+msgstr "Вход"
+
+#: settings/menu/logo.php:10 settings/menu/logo.php:18
+#: settings/menu/logo.php:75 settings/menu/logo.php:92
+msgid "Logo"
+msgstr "Логотип"
+
+#: settings/menu/user.php:190
+msgid "Logout"
+msgstr "Выход"
+
+#: settings/menu/dropdown.php:93
+msgid "Make dropdown horizontal"
+msgstr "Сделать выпадающий список горизонтальным"
+
+#: settings/setup.php:813
+msgid "Max audio size"
+msgstr "Максимальный размер файла аудио"
+
+#: settings/setup.php:823
+msgid "Max document size"
+msgstr "Максимальный размер файла документа"
+
+#: settings/setup.php:783
+msgid "Max file count"
+msgstr "Максимальное количество файлов"
+
+#: settings/setup.php:793
+msgid "Max image size"
+msgstr "Максимальный размер файла изображения"
+
+#: settings/setup.php:803
+msgid "Max video size"
+msgstr "Максимальный размер файла видео"
+
+#: layouts/profile.php:368
+#, php-format
+msgid "Member since %s"
+msgstr "Участник с %s"
+
+#: footer.php:784
+msgid "Members"
+msgstr "Участники"
+
+#: settings/setup.php:143
+msgid "Menu Settings"
+msgstr "Настройки меню"
+
+#: footer.php:1324
+msgid "Message"
+msgstr "Сообщение"
+
+#: footer.php:533
+msgid "Messages"
+msgstr "Сообщения"
+
+#: settings/menu/user.php:13
+msgid "Messenger"
+msgstr "Кнопка \"Месенджер\""
+
+#: footer.php:603
+msgid "More"
+msgstr "Еще"
+
+#: layouts/templates/community.php:246
+msgid "More themes"
+msgstr "Больше тем"
+
+#: footer.php:147 footer.php:346 footer.php:1316 footer.php:1457
+msgid "Name"
+msgstr "Имя"
+
+#: footer.php:272
+msgid "New Password"
+msgstr "Новый пароль"
+
+#: footer.php:406
+msgid "New password"
+msgstr "Новый пароль"
+
+#: settings/menu/user.php:14
+msgid "New Record"
+msgstr "Кнопка \"Создать запись\""
+
+#: settings/setup.php:440 settings/setup.php:624
+msgid "New Year end date"
+msgstr "Дата окончания Нового года"
+
+#: settings/setup.php:403
+msgid "New Year Settings"
+msgstr "Настройки Нового Года"
+
+#: settings/setup.php:418 settings/setup.php:602
+msgid "New Year start date"
+msgstr "Дата начала Нового года"
+
+#: layouts/widgets/comments.php:34 layouts/widgets/comments.php:50
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые коментарии <span class=\"meta-nav\">&rarr;</span>"
+
+#: layouts/templates/community.php:100
+msgid "News"
+msgstr "Новости"
+
+#: footer.php:1091
+msgid "No proposition"
+msgstr "Нет предложения"
+
+#: layouts/profile.php:262 layouts/profile.php:270
+msgid "No records"
+msgstr ""
+"Нет записей\n"
+
+#: footer.php:1100
+msgid "No requests"
+msgstr "Нет запросов"
+
+#: requests/user_proposal.php:32
+msgid "No title"
+msgstr "Нет заголовка"
+
+#: layouts/card/no-result.php:2 layouts/feed/no-result.php:2
+msgid "Nothing found here"
+msgstr ""
+"Здесь ничего не найдено\n"
+
+#: layouts/card/no-result-search.php:2 layouts/search/no-result.php:2
+msgid "Nothing found!"
+msgstr "Ничего не найдено!"
+
+#: settings/menu/user.php:12
+msgid "Notification"
+msgstr "Уведомление"
+
+#: settings/setup.php:973
+msgid "Notification Settings"
+msgstr "Настройки уведомлений"
+
+#: footer.php:417 settings/menu/user.php:197
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: footer.php:553
+msgid "Now create your first channel."
+msgstr "Теперь создайте свой первый канал."
+
+#. Name of the template
+#: settings/menu/user.php:187
+msgid "Office"
+msgstr "Офис"
+
+#: modules/slugify/menu/converter.php:302
+msgid "OK"
+msgstr "OK"
+
+#: config/theme.php:421
+#, php-format
+msgid "On page: %s"
+msgstr "На странице: %s"
+
+#: modules/slugify/menu/converter.php:318
+#| msgid ""
+#| "On this page you can choose post types and statuses which slugs you want "
+#| "to be transliterated."
+msgid ""
+"On this page you can choose post types which slugs you want to be "
+"transliterated."
+msgstr ""
+"На этой странице вы можете выбрать типы записей, которые вы хотите "
+"транслитерировать."
+
+#. Name of the theme
+msgid "sadovod"
+msgstr "sadovod"
+
+#. Author of the theme
+msgid "sadovod Team"
+msgstr "Команда sadovod"
+
+#. Description of the theme
+#, fuzzy
+#| msgid "sadovod theme"
+msgid "sadovod Theme"
+msgstr "Тема sadovod"
+
+#: config/lang.php:112
+msgid "Open file"
+msgstr "Открыть файл"
+
+#: settings/setup.php:264
+msgid "Opportunities slider settings"
+msgstr "Настройки слайдера возможностей"
+
+#: footer.php:1350
+msgid "or"
+msgstr "или"
+
+#: config/theme.php:427
+#, php-format
+msgid "Original policy: %s"
+msgstr "Первоначальная политика: %s"
+
+#: layouts/card/resource.php:55 layouts/search/resource.php:30
+#: layouts/single/resource.php:83 layouts/feed/resource.php:30
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: settings/setup.php:120 settings/setup.php:559 settings/setup.php:743
+msgid "Page placeholder"
+msgstr "Заглушка страниц"
+
+#: settings/setup.php:152
+msgid "Page Settings"
+msgstr "Настройки страниц"
+
+#: settings/setup.php:246
+msgid "Participation settings"
+msgstr "Настройки участия"
+
+#: footer.php:97 footer.php:163 footer.php:1407 footer.php:1469
+msgid "Password"
+msgstr "Пароль"
+
+#: footer.php:304
+msgid "Password reset link outdated!"
+msgstr "Ссылка для сброса пароля устарела!"
+
+#: settings/setup.php:933
+msgid "Password used to protect private pgp key."
+msgstr "Пароль, используемый для защиты закрытого ключа pgp."
+
+#: settings/setup.php:917
+msgid "Password used to protect private rsa key based on elliptic curve."
+msgstr ""
+"Пароль, используемый для защиты закрытого ключа RSA на основе эллиптической "
+"кривой."
+
+#: settings/setup.php:901
+#| msgid "Password used to protect rsa key."
+msgid "Password used to protect private rsa key."
+msgstr "Пароль, используемый для защиты приватного ключа rsa."
+
+#: settings/setup.php:885
+msgid "Password used to protect private ssl key."
+msgstr "Пароль, используемый для защиты закрытого ssl-ключа."
+
+#: settings/setup.php:944
+msgid "Password used to protect signed pgp messages."
+msgstr "Пароль, используемый для защиты подписанных сообщений pgp."
+
+#: footer.php:354
+msgid "Patronymic"
+msgstr "Отчество"
+
+#: footer.php:1248 layouts/single/project.php:300
+msgid "Payment"
+msgstr "Оплата"
+
+#: requests/user_proposal.php:66 layouts/single/project.php:276
+#| msgid "pcs"
+msgid "pc"
+msgid_plural "pcs"
+msgstr[0] "шт."
+msgstr[1] "шт."
+msgstr[2] "шт."
+
+#: settings/setup.php:966
+msgid "Penalty time"
+msgstr "Время ожидания "
+
+#: settings/sidebar/widgets/popular_posts.php:172
+#: settings/sidebar/widgets/popular_terms.php:108
+#: settings/sidebar/widgets/popular_authors.php:154
+#: settings/sidebar/widgets/viewed_posts.php:181
+msgid "Period"
+msgstr "Период"
+
+#: footer.php:688
+msgid "Personal"
+msgstr "Личный"
+
+#: includes/seo.php:25
+msgid "Personal Profile"
+msgstr "Личный профиль"
+
+#: settings/setup.php:943
+msgid "PGP Message Password"
+msgstr "Пароль для сообщения PGP"
+
+#: settings/setup.php:922
+msgid "PGP Options"
+msgstr "Параметры PGP"
+
+#: settings/setup.php:932
+msgid "PGP Password"
+msgstr "Пароль PGP"
+
+#: layouts/profile.php:89
+msgid "Phone"
+msgstr "Телефон"
+
+#: requests/user_proposal.php:66 layouts/single/project.php:344
+msgid "place"
+msgid_plural "places"
+msgstr[0] "место"
+msgstr[1] "места"
+msgstr[2] "мест"
+
+#: settings/sidebar/widgets/popular_authors.php:17
+#: settings/sidebar/widgets/popular_authors.php:142
+msgid "Popular Authors"
+msgstr "Популярные авторы"
+
+#: settings/sidebar/widgets/popular_posts.php:17
+#: settings/sidebar/widgets/popular_posts.php:163
+msgid "Popular Posts"
+msgstr "Популярные записи"
+
+#: settings/sidebar/widgets/popular_terms.php:17
+#: settings/sidebar/widgets/popular_terms.php:100
+msgid "Popular Terms"
+msgstr "Популярные категории"
+
+#: layouts/templates/community.php:28
+msgid "Popular Theme"
+msgstr "Популярная тема"
+
+#: layouts/profile.php:313 layouts/single/job.php:262
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: layouts/profile.php:6 layouts/card/user.php:53 layouts/search/user.php:39
+#: layouts/feed/user.php:39
+msgid "Post"
+msgid_plural "Posts"
+msgstr[0] "Публикация"
+msgstr[1] "Публикации"
+msgstr[2] "Публикаций"
+
+#: layouts/widgets/comments.php:92
+msgid "Post Comment"
+msgstr "Опубликовать"
+
+#: modules/slugify/menu/converter.php:106
+msgid "Post Statuses"
+msgstr "Статусы записей"
+
+#: modules/slugify/menu/converter.php:110
+msgid "Post statuses included in the conversion."
+msgstr "Статусы записей, включаемых в конвертацию."
+
+#: settings/sidebar/widgets/popular_posts.php:182
+#: settings/sidebar/widgets/popular_authors.php:161
+#: settings/sidebar/widgets/viewed_posts.php:191
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: modules/slugify/menu/converter.php:82
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: modules/slugify/menu/converter.php:86
+msgid "Post types included in the conversion."
+msgstr "Типы записей, включаемые в конвертацию."
+
+#: footer.php:1180 layouts/single/project.php:234
+msgid "Price"
+msgstr "Цена"
+
+#: footer.php:423
+msgid "Privacy"
+msgstr "Приватность"
+
+#: footer.php:13
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+#: footer.php:225 footer.php:1530
+msgid "Proceed"
+msgstr "Продолжить"
+
+#: settings/menu/user.php:11
+msgid "Profile"
+msgstr "Профиль"
+
+#: settings/setup.php:830
+msgid "Profile Settings"
+msgstr "Настройки профиля"
+
+#: layouts/profile.php:8 layouts/card/user.php:55 layouts/search/user.php:41
+#: layouts/feed/user.php:41
+msgid "Project"
+msgid_plural "Projects"
+msgstr[0] "Проект"
+msgstr[1] "Проекта"
+msgstr[2] "Проектов"
+
+#: settings/sidebar/project.php:7
+msgid "Project Sidebar"
+msgstr "Боковая панель списка проектов"
+
+#. Name of the template
+msgid "Projects"
+msgstr "Проекты"
+
+#: footer.php:690
+msgid "Public"
+msgstr "Публичный"
+
+#: footer.php:1176 footer.php:1244 layouts/single/project.php:233
+#: layouts/single/project.php:299
+#: settings/sidebar/widgets/popular_posts.php:175
+#: settings/sidebar/widgets/popular_terms.php:111
+#: settings/sidebar/widgets/popular_authors.php:151
+#: settings/sidebar/widgets/viewed_posts.php:184
+msgid "Quanity"
+msgstr "Кол-во"
+
+#: settings/setup.php:282
+msgid "Questins & Answers list"
+msgstr "Список вопросов и ответов"
+
+#: settings/setup.php:957
+msgid "Rate limit"
+msgstr "Ограничение запросов"
+
+#: settings/setup.php:949
+msgid "Rate Limit Settings"
+msgstr "Настройки ограничения запросов"
+
+#: footer.php:826
+msgid "Record creation"
+msgstr "Создание записи"
+
+#: footer.php:829
+msgid "Record data"
+msgstr "Данные"
+
+#: requests/record_collect.php:21
+#| msgid "Record has been successfully added to collectin!"
+#| msgid_plural "Records has been successfully added to collectin!"
+msgid "Record has been successfully added to collection!"
+msgid_plural "Records has been successfully added to collection!"
+msgstr[0] "Запись успешно добавлена в коллекцию!"
+msgstr[1] "Записи успешно добавлена в коллекцию!"
+msgstr[2] "Записи успешно добавлены в коллекцию!"
+
+#: requests/record_uncollect.php:21
+#| msgid "Record has been successfully removed from collectins!"
+#| msgid_plural "Records has been successfully removed from collectins!"
+msgid "Record has been successfully removed from collections!"
+msgid_plural "Records has been successfully removed from collections!"
+msgstr[0] "Запись успешно удалена из коллекции!"
+msgstr[1] "Записи успешно удалены из коллекции!"
+msgstr[2] "Записи успешно удалены из коллекции!"
+
+#: footer.php:828
+msgid "Record info"
+msgstr "Информация"
+
+#: footer.php:827
+msgid "Record location"
+msgstr "Расположение"
+
+#: settings/setup.php:304 settings/setup.php:317
+msgid "Record placeholder"
+msgstr "Стандартная картинка"
+
+#: config/theme.php:422
+#, php-format
+msgid "Referrer: %s"
+msgstr "Отправитель: %s"
+
+#: footer.php:121 footer.php:136 footer.php:181 footer.php:1431 footer.php:1446
+#: footer.php:1486 layouts/templates/front-page.php:30
+#: settings/menu/user.php:181
+msgid "Register"
+msgstr "Регистрация"
+
+#: layouts/profile.php:190
+msgid "Remove from contacts"
+msgstr "Удалить из контактов"
+
+#: footer.php:278
+msgid "Repeat New Password"
+msgstr "Повторите новый пароль"
+
+#: footer.php:412
+#| msgid "Repeat Password"
+msgid "Repeat new password"
+msgstr "Повторите новый пароль"
+
+#: config/theme.php:445
+#| msgid "Report succesfuly received"
+msgid "Report successfully received"
+msgstr "Отчет успешно получен"
+
+#: config/theme.php:435
+#, php-format
+msgid "Reported file: %s"
+msgstr "Проблемный файл: %s"
+
+#: layouts/single/job.php:155 layouts/single/resource.php:116
+msgid "Request"
+msgstr "Запрос"
+
+#: layouts/card/project.php:56 layouts/single/project.php:185
+msgid "Required investments"
+msgstr "Требуемые инвестиции"
+
+#: layouts/card/project.php:78 layouts/single/project.php:228
+msgid "Required resources"
+msgstr "Требуемые ресурсы"
+
+#: layouts/card/project.php:100 layouts/single/project.php:294
+msgid "Required specialists"
+msgstr "Требуемые специалисты"
+
+#: footer.php:120 footer.php:210 footer.php:1430 footer.php:1515
+msgid "Reset Password"
+msgstr "Сброс пароля"
+
+#: layouts/profile.php:7 layouts/card/user.php:54 layouts/search/user.php:40
+#: layouts/feed/user.php:40
+msgid "Resource"
+msgid_plural "Resources"
+msgstr[0] "Ресурс"
+msgstr[1] "Ресурса"
+msgstr[2] "Ресурсов"
+
+#: settings/sidebar/resource.php:7
+msgid "Resource Sidebar"
+msgstr "Боковая панель списка ресурсов"
+
+#: layouts/single/project.php:232
+msgid "Resource Title"
+msgstr "Наименование"
+
+#. Name of the template
+#: layouts/search/project.php:41 layouts/single/project.php:75
+#: layouts/feed/project.php:41
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: layouts/profile.php:137
+msgid "Review"
+msgid_plural "Reviews"
+msgstr[0] "Отзыв"
+msgstr[1] "Отзыва"
+msgstr[2] "Отзывов"
+
+#: settings/setup.php:906
+msgid "RSA EC Options"
+msgstr "Настройки ЭК RSA"
+
+#: settings/setup.php:916
+msgid "RSA EC Password"
+msgstr "Пароль ЭК RSA"
+
+#: settings/setup.php:890
+msgid "RSA Options"
+msgstr "Параметры RSA"
+
+#: settings/setup.php:900
+msgid "RSA Password"
+msgstr "Пароль RSA"
+
+#: footer.php:364 footer.php:438 footer.php:742 footer.php:803
+msgid "Save"
+msgstr "Сохранить"
+
+#: footer.php:1565
+msgid "Scroll to top"
+msgstr "Пролистать вверх"
+
+#: settings/menu/search.php:13 settings/menu/search.php:23
+#: settings/menu/search.php:80 settings/menu/search.php:96
+#: settings/menu/search.php:119 settings/menu/search.php:126
+msgid "Search"
+msgstr "Поиск"
+
+#: settings/menu/search.php:14
+msgid "Search current category"
+msgstr "Поиск по текущей категории"
+
+#: settings/sidebar/search.php:7
+msgid "Search Sidebar"
+msgstr "Боковая панель поиска"
+
+#: settings/setup.php:967
+msgid "Seconds to wait if rate limit exceeded."
+msgstr "Время ожидания в секундах, если превышен лимит запросов."
+
+#: settings/setup.php:1018
+msgid "Secret key"
+msgstr "Секретный ключ"
+
+#: footer.php:404
+msgid "Security"
+msgstr "Безопасность"
+
+#: settings/setup.php:869
+msgid "Security Settings"
+msgstr "Настройки безопасности"
+
+#: footer.php:634
+#| msgid ""
+#| "Select a channel from the list.<br />Or create a new one using button "
+#| "below."
+msgid ""
+"Select a channel from the list.<br >Or create a new one using button below."
+msgstr ""
+"Выберите канал из списка.<br >Или создайте новый, используя кнопку ниже."
+
+#: footer.php:1092
+msgid "Select author request below to make your proposition"
+msgstr "Выберите запрос автора ниже, чтобы сделать свое предложение"
+
+#: footer.php:685
+msgid "Select channel type"
+msgstr "Выберите тип канала"
+
+#: settings/control/slider.php:101
+msgid "Select type"
+msgstr "Выберите тип записи"
+
+#: footer.php:703
+msgid "Select user"
+msgstr "Выберите пользователя"
+
+#: footer.php:1358
+msgid "Send"
+msgstr "Отправить"
+
+#: footer.php:1073
+msgid "Send new support proposal"
+msgstr "Отправить новое предложение"
+
+#: footer.php:1262
+msgid "Send proposal"
+msgstr "Отправить предложение"
+
+#: footer.php:1000
+msgid "Set category info"
+msgstr "Установить информацию о категории"
+
+#: footer.php:693
+msgid "Set channel info"
+msgstr "Установить информацию о канале"
+
+#: footer.php:959
+msgid "Set theme info"
+msgstr "Установить информацию о теме"
+
+#: footer.php:389 settings/menu/user.php:188
+msgid "Settings"
+msgstr "Настройки"
+
+#: footer.php:1562
+msgid "Show messenger"
+msgstr "Показать месенджер"
+
+#: settings/sidebar/archive.php:8
+msgid "Shown on archive page"
+msgstr "Отображается на странице списка записей"
+
+#: settings/sidebar/feed.php:8
+msgid "Shown on feed page"
+msgstr "Отображается на странице новостей"
+
+#: settings/sidebar/job.php:8
+msgid "Shown on job page"
+msgstr "Отображается на странице списка работ"
+
+#: settings/sidebar/project.php:8
+msgid "Shown on project page"
+msgstr "Отображается на странице списка проектов"
+
+#: settings/sidebar/resource.php:8
+msgid "Shown on resource page"
+msgstr "Отображается на странице списка ресурсов"
+
+#: settings/sidebar/search.php:8
+msgid "Shown on search page"
+msgstr "Отображается на странице поиска"
+
+#: settings/sidebar/taxonomy.php:8
+msgid "Shown on taxonomy page"
+msgstr "Отображается на странице категорий"
+
+#: settings/sidebar/user.php:8
+msgid "Shown on users page"
+msgstr "Отображается на странице списка пользователей"
+
+#: settings/sidebar/widgets/popular_authors.php:18
+msgid "Shows popular authors"
+msgstr "Отображает популярных авторов"
+
+#: settings/sidebar/widgets/popular_posts.php:18
+msgid "Shows popular posts"
+msgstr "Отображает популярные записи"
+
+#: settings/sidebar/widgets/popular_terms.php:18
+msgid "Shows popular terms"
+msgstr "Отображает популярные категории"
+
+#: settings/sidebar/widgets/viewed_posts.php:18
+msgid "Shows viewed posts"
+msgstr "Отображает просмотренные записи"
+
+#: settings/menu/user.php:17
+msgid "Sign In"
+msgstr "Регистрация"
+
+#: layouts/profile.php:101
+msgid "Site"
+msgstr "Сайт"
+
+#: settings/setup.php:95 settings/setup.php:534 settings/setup.php:718
+msgid "Site icon in SVG format"
+msgstr "Иконка сайта в формате SVG"
+
+#: settings/setup.php:1009
+msgid "Site key"
+msgstr "Ключ сайта"
+
+#: settings/setup.php:1019
+msgid ""
+"Site sends and gets data from the reCAPTCHA service using this secret key."
+msgstr ""
+"Сайт отправляет и получает данные из службы reCAPTCHA, используя этот "
+"секретный ключ."
+
+#: settings/setup.php:995
+msgid ""
+"Site transmits this key if user subscibed to push notifications in chrome "
+"browser."
+msgstr ""
+"Сайт передает этот ключ, если пользователь подписался на push-уведомления в "
+"браузере Chrome."
+
+#: settings/setup.php:1010
+msgid "Site transmits this key in the HTML code to users devices."
+msgstr "Сайт передает этот ключ в HTML-коде на устройства пользователей."
+
+#: settings/setup.php:984
+msgid ""
+"Site transmits this number as gcm_sender_id if user subscibed to push "
+"notifications in chrome browser."
+msgstr ""
+"Сайт передает этот номер как gcm_sender_id, если пользователь подписался на "
+"push-уведомления в браузере Chrome."
+
+#: layouts/profile.php:325
+msgid "Skills"
+msgstr "Навыки"
+
+#: settings/setup.php:167
+msgid "Slider settings"
+msgstr "Настройки слайдера"
+
+#: modules/slugify/menu/converter.php:202
+msgid "Slug Converter"
+msgstr "Конвертер ссылок"
+
+#: modules/slugify/menu/converter.php:364
+msgid "Slug Transliteration and Optimization"
+msgstr "Конвертация и оптимизация ссылок"
+
+#: layouts/widgets/sort.php:9
+#, php-format
+msgid "Sort by: %s"
+msgstr "Сортировать по: %s"
+
+#: layouts/widgets/filter.php:103
+msgid "Sorting"
+msgstr "Сортировка"
+
+#: footer.php:926
+msgid "Specify record data"
+msgstr "Укажите данные записи"
+
+#: footer.php:887
+msgid "Specify record info"
+msgstr "Укажите информацию записи"
+
+#: footer.php:846
+msgid "Specify record location"
+msgstr "Укажите раздел записи"
+
+#: footer.php:1074
+msgid "Specify witch kind of help you propose."
+msgstr "Укажите, что вы предлагаете."
+
+#: settings/setup.php:884
+msgid "SSl form-floating password"
+msgstr "Пароль SSL"
+
+#: settings/setup.php:874
+#| msgid "SSl Options"
+msgid "SSL Options"
+msgstr "Параметры SSL"
+
+#: layouts/single/project.php:212
+msgid "Start date"
+msgstr "Дата начала"
+
+#: footer.php:633
+msgid "Start messaging"
+msgstr "Начните переписку"
+
+#: footer.php:705 footer.php:736 footer.php:787
+msgid "Start typing user name..."
+msgstr "Начните вводить имя пользователя..."
+
+#: layouts/templates/community.php:174
+msgid "Stories"
+msgstr "Истории"
+
+#: layouts/widgets/filter.php:15
+msgid "Suggestions"
+msgstr "Рекомендации"
+
+#: layouts/single/project.php:101 layouts/single/project.php:192
+#: layouts/single/project.php:199 layouts/single/project.php:207
+#: layouts/single/project.php:279 layouts/single/project.php:347
+msgid "Support"
+msgstr "Поддержать"
+
+#: footer.php:151
+msgid "Surname"
+msgstr "Фамилия"
+
+#: settings/sidebar/taxonomy.php:7
+msgid "Taxonomy Sidebar"
+msgstr "Боковая панель категорий"
+
+#: settings/control/slider.php:112 settings/control/slider.php:189
+msgid "Text"
+msgstr "Текст"
+
+#: footer.php:964
+msgid "Theme Name"
+msgstr "Название темы"
+
+#: modules/slugify/menu/converter.php:273
+msgid ""
+"This operation is irreversible. Please make sure that you have made a backup "
+"copy of your database."
+msgstr ""
+"Эта операция необратима. Пожалуйста, убедитесь, что вы сделали копию базы "
+"данных."
+
+#: layouts/widgets/comments.php:102
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Этот пост защищен паролем. Введите пароль для просмотра комментариев."
+
+#: settings/control/slider.php:94 settings/control/slider.php:136
+#: settings/control/slider.php:165
+#: settings/sidebar/widgets/popular_posts.php:169
+#: settings/sidebar/widgets/popular_terms.php:105
+#: settings/sidebar/widgets/popular_authors.php:148
+#: settings/sidebar/widgets/viewed_posts.php:178
+msgid "Title"
+msgstr "Заголовок"
+
+#: settings/setup.php:145
+msgid "Title Settings"
+msgstr "Настройки заголовков"
+
+#: config/lang.php:103
+#| msgid ""
+#| "To edit template localization <b style=\"color:#fe632a\">markup</b> file "
+#| "use this link."
+msgid ""
+"To edit template localization <b style=\"color:#fe632a\">markup</b> file, "
+"use this link."
+msgstr ""
+"Чтобы отредактировать файл <b style=\"color:#fe632a\">разметки</b> перевода "
+"темы, воспользуйтесь этой ссылкой."
+
+#: config/lang.php:100
+#| msgid "To edit template localization file use this link."
+msgid "To edit template localization file, use this link."
+msgstr "Чтобы отредактировать файл перевода темы, воспользуйтесь этой ссылкой."
+
+#: footer.php:542
+msgid "To start messaging you need to add contacts."
+msgstr "Чтобы начать обмен сообщениями, вам необходимо добавить контакты."
+
+#: footer.php:1566
+msgid "Toggle theme color"
+msgstr "Переключить цвет темы"
+
+#: layouts/single/project.php:54
+#, php-format
+msgid "Total %s %s"
+msgstr "Всего %s %s"
+
+#: layouts/single/project.php:69
+#, php-format
+msgid "Total %s job"
+msgid_plural "Total %s jobs"
+msgstr[0] "Всего %s работа"
+msgstr[1] "Всего %s работы"
+msgstr[2] "Всего %s работ"
+
+#: layouts/single/project.php:83
+#, php-format
+msgid "Total %s resource"
+msgid_plural "Total %s resources"
+msgstr[0] "Всего %s ресурс"
+msgstr[1] "Всего %s ресурса"
+msgstr[2] "Всего %s ресурсов"
+
+#: requests/user_proposal.php:64
+#, php-format
+msgid "Total - %s %s"
+msgstr "Всего - %s %s"
+
+#: modules/slugify/menu/converter.php:203
+msgid "Transliteration of post slugs"
+msgstr "Транслитерация ссылок"
+
+#: modules/slugify/menu/converter.php:339
+msgid "Transliteration Options"
+msgstr "Настройки транслитерации ссылок"
+
+#: layouts/card/no-result-search.php:3 layouts/search/no-result.php:3
+msgid "Try change your query."
+msgstr "Попробуйте изменить свой запрос."
+
+#: layouts/card/no-result-feed.php:3
+#| msgid "Try subscribe to some authors."
+msgid "Try to subscribe to some authors."
+msgstr "Попробуйте подписаться на авторов."
+
+#: layouts/card/no-result.php:3 layouts/feed/no-result.php:3
+msgid "Try to use search, or return back."
+msgstr ""
+"Попробуйте воспользоваться поиском, или вернитесь назад.\n"
+
+#: footer.php:284 footer.php:1049
+msgid "Update"
+msgstr "Обновить"
+
+#: footer.php:259
+msgid "Update Password"
+msgstr "Обновить пароль"
+
+#: modules/slugify/menu/converter.php:291
+#, php-format
+#| msgid ""
+#| "Upon conversion of attachments, please <a href=\"%s\" aria-label=\"Open "
+#| "Thumbnail Tool page\">regenerate thumbnails.</a>"
+msgid ""
+"Upon conversion of attachments, please <a href=\"%s\" aria-label=\"Open "
+"Thumbnail Tool page\" target=\"_blank\">regenerate thumbnails.</a>"
+msgstr ""
+"После конвертации вложений, пожалуйста, <a href=\"%s\" aria-label=\"Open "
+"Thumbnail Tool page\" target=\"_blank\">пересоздайте миниатюры.</a>"
+
+#. %s: URL to Import screen.
+#: modules/slugify/menu/converter.php:369
+#, php-format
+#| msgid ""
+#| "Used to convert cyrillic post slugs to latin or generate it automatically."
+#| " It`s available at Tools submenu <a href=\"%s\">Slug Converter</a>."
+msgid ""
+"Used to convert cyrillic post slugs to latin or generate it automatically. "
+"It`s available at submenu <a href=\"%s\">Slug Converter</a>."
+msgstr ""
+"Используется для преобразования кириллических ссылок в латиницу или их "
+"автоматического создания. Он доступен в разделе <a href=\"%s\">Конвертер "
+"ссылок</a>."
+
+#: settings/menu/user.php:27
+msgid "User"
+msgstr "Пользователь"
+
+#: layouts/profile.php:263
+msgid "User not posted any record of this type."
+msgstr ""
+"Пользователь не опубликовал ни одной записи этого типа.\n"
+
+#: layouts/profile.php:271
+msgid "User not posted any record yet."
+msgstr ""
+"Пользователь еще не опубликовал ни одной записи.\n"
+
+#: layouts/profile.php:234
+msgid "User records"
+msgstr "Записи пользователя"
+
+#: footer.php:93 footer.php:159 footer.php:160 footer.php:221 footer.php:1461
+#: footer.php:1462 footer.php:1526
+msgid "Username"
+msgstr "Имя пользователя"
+
+#. Name of the template
+#: requests/record_search.php:102 settings/control/slider.php:72
+msgid "Users"
+msgstr "Пользователи"
+
+#: settings/sidebar/user.php:7
+msgid "Users Sidebar"
+msgstr "Боковая панель списка пользователей"
+
+#: layouts/single/project.php:298
+msgid "Vacancy Title"
+msgstr "Название должности"
+
+#: settings/setup.php:768
+msgid "Variable Settings"
+msgstr "Настройки переменных"
+
+#: layouts/card/resource.php:44 layouts/search/resource.php:19
+#: layouts/feed/resource.php:19
+msgid "Variants"
+msgstr "Варианты"
+
+#: layouts/templates/front-page.php:33
+msgid "View more"
+msgstr "Подробнее"
+
+#: settings/sidebar/widgets/viewed_posts.php:17
+#: settings/sidebar/widgets/viewed_posts.php:172
+msgid "Viewed Posts"
+msgstr "Просмотренные записи"
+
+#: config/theme.php:424
+#, php-format
+msgid "Violated directive: %s"
+msgstr "Нарушенная директива: %s"
+
+#: footer.php:421 settings/menu/user.php:206
+msgid ""
+"We can send you notifications in the browser and by push method, to keep you "
+"updated"
+msgstr ""
+"Мы можем отправлять вам уведомления через браузер и методом push, чтобы "
+"держать вас в курсе событий"
+
+#: layouts/card/no-result.php:3 layouts/feed/no-result.php:3
+msgid "We not found anything."
+msgstr ""
+"Мы ничего не нашли.\n"
+
+#: footer.php:541
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: settings/setup.php:211
+msgid "Whom settings"
+msgstr "Настройки \"Для кого\""
+
+#: settings/setup.php:1025 settings/setup.php:1030
+msgid "Widgets Settings"
+msgstr "Настройки виджетов"
+
+#: settings/setup.php:339
+msgid "Yandex.Map Settings"
+msgstr "Настройки Яндекс.Карт"
+
+#: requests/user_proposal.php:53
+#| msgid "You don’t have any record of this type."
+msgid "You don’t have any record of this type"
+msgstr "У вас нет никаких записей такого типа"
+
+#: requests/user_subscribe.php:21
+msgid "You have been successfully subscribed to user!"
+msgid_plural "You have been successfully subscribed to users!"
+msgstr[0] "Вы были успешно подписаны на пользователя!"
+msgstr[1] "Вы были успешно подписаны на пользователей!"
+msgstr[2] "Вы были успешно подписаны на пользователей!"
+
+#: layouts/widgets/comments.php:71
+#, php-format
+msgid "You must be <a %s>logged in</a> to post a comment."
+msgstr "Вы должны быть <a %s>авторизованы</a>, чтобы оставить комментарий."
+
+#: requests/user_update.php:63
+msgid "You successfully updated your account!"
+msgstr "Вы успешно обновили свой аккаунт!"
+
+#: layouts/templates/front-page.php:170
+msgid "You will be able to:"
+msgstr "Вы сможете:"
+
+#: footer.php:434
+#| msgid ""
+#| "Your account will be deleted in %s days, if you don’t get logged in again "
+#| "during this time"
+msgid ""
+"Your account will be deleted in %d days, if you don’t get logged in again "
+"during this time"
+msgstr ""
+"Ваша учетная запись будет удалена через %d дней, если вы снова не войдете в "
+"систему, в течении этого времени"
+
+#: footer.php:428
+msgid ""
+"Your account will be hidden from search engines, and not displayed in promo-"
+"blocks"
+msgstr ""
+"Ваш аккаунт будет скрыт от поисковых систем и не будет отображаться в промо-"
+"блоках"
+
+#: includes/comments.php:30
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: includes/comments.php:32
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+"Ваш комментарий ожидает проверки. Это предпросмотр. Ваш комментарий будет "
+"виден после того, как он будет одобрен."
+
+#: layouts/card/no-result-feed.php:2
+msgid "Your feed is empty!"
+msgstr "Ваша лента пуста!"
+
+#: footer.php:1089
+msgid "Your proposition"
+msgstr "Ваше предложение"
+
+#: footer.php:616
+#| msgid "Remove the channel"
+msgid "Сlose the channel"
+msgstr "Закрыть канал"

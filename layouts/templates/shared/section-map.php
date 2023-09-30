@@ -854,47 +854,31 @@
     </div>
 </section>
 
-
-<div id="balaklavskiy" class="cnt-tooltip">
-    <p>Общая площадь <span>530,3 км²</span></p>
-    <p>Население <span>74 817 чел.</span></p>
-    <p>Участков <span>4 000</span></p>
-    <p>Количество СНТ <span>65</span></p>
-</div>
-<!-- <div id="orli" class="cnt-tooltip">
-    <p>Снт орлинное</p>
-    <p>Снт орлинное</p>
-    <p>Снт орлинное</p>
-    <p>Снт орлинное</p>
-    <p>Снт орлинное</p>
-</div>
-<div id="ternovskiy" class="cnt-tooltip">
-    <p>Снт Терновка</p>
-    <p>Снт Терновка</p>
-    <p>Снт Терновка</p>
-    <p>Снт Терновка</p>
-    <p>Снт Терновка</p>
-</div>
-
-<div id="gagarinskiy" class="cnt-tooltip">
-    <p>Снт Гагарина</p>
-    <p>Снт Гагарина</p>
-    <p>Снт Гагарина</p>
-    <p>Снт Гагарина</p>
-</div>
-<div id="leninskiy" class="cnt-tooltip">
-    <p>Снт Ленинский</p>
-    <p>Снт Ленинский</p>
-    <p>Снт Ленинский</p>
-    <p>Снт Ленинский</p>
-    <p>Снт Ленинский</p>
-</div>
-<div id="nahim" class="cnt-tooltip">
-    <p>Снт Нахимовский</p>
-    <p>Снт Нахимовский</p>
-    <p>Снт Нахимовский</p>
-    <p>Снт Нахимовский</p>
-    <p>Снт Нахимовский</p>
+<div class="cnt-tooltip">
+    <div class="cnt-tooltip__main skeleton-box">
+        <div>Общая площадь
+            <span>
+                <div class="cnt-tooltip__square"></div>
+                км²
+            </span>
+        </div>
+        <div>Население
+            <span>
+                <div class="cnt-tooltip__population"></div>
+                чел.
+            </span>
+        </div>
+        <div>Участков
+            <span>
+                <div class="cnt-tooltip__land_plots"></div>
+            </span>
+        </div>
+        <div>Количество СНТ
+            <span>
+                <div class="cnt-tooltip__number_snt"></div>
+            </span>
+        </div>
+    </div>
 </div>
 
 <div id="authMap" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">

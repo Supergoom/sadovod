@@ -1,0 +1,860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sadovod\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-26 20:31+0000\n"
+"PO-Revision-Date: 2023-03-20 01:35+0000\n"
+"Last-Translator: Никита Дмитриевич\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: sadovod"
+
+#: includes/guideview.php:398
+msgid "Action confirmation modal"
+msgstr "Окно подтверждения действия"
+
+#: includes/guideview.php:70
+msgid "Actions"
+msgstr "Действия"
+
+#: includes/guideview.php:64
+msgid "Alert"
+msgstr "Оповещение"
+
+#: includes/guideview.php:385
+msgid "Alert danger"
+msgstr "Критическое оповещение"
+
+#: includes/guideview.php:379
+msgid "Alert success"
+msgstr "Успешное оповещение"
+
+#: includes/guideview.php:375
+msgid "Alerts"
+msgstr "Оповещения"
+
+#: includes/guideview.php:128
+msgid "Alternative"
+msgstr "Альтернативные"
+
+#: includes/guideview.php:59
+msgid "Background"
+msgstr "Фон"
+
+#: services/core/service.php:821
+#, php-format
+msgid "Bad opcode %s. Try 'text' or 'binary'"
+msgstr "Неверный код операции %s. Попробуйте \"text\" или \"binary\""
+
+#: services/core/service.php:1018
+#, php-format
+msgid "Bad opcode in websocket frame: %s"
+msgstr "Неверный код операции во фрейме websocket-а: %s"
+
+#: includes/guideview.php:71
+msgid "Bage"
+msgstr "Бейдж"
+
+#: includes/guideview.php:76
+msgid "Big border radius"
+msgstr "Большой радиус закругления"
+
+#: includes/guideview.php:109
+msgid "Bold"
+msgstr "Жирный"
+
+#: includes/guideview.php:54
+msgid "Bright"
+msgstr "Яркий"
+
+#: services/core/service.php:773
+#, php-format
+msgid "Broken frame, read %d of stated %d bytes"
+msgstr "Неверный фрейм, прочитано %d из заявленных %d байтов"
+
+#: includes/guideview.php:119
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: includes/guideview.php:264
+msgid "Checkbox"
+msgstr "Переключатель"
+
+#: services/core/service.php:260
+msgid "Client added to connection list"
+msgstr "Клиент добавлен в список подключений"
+
+#: services/core/service.php:597
+msgid "Client authorization successful"
+msgstr "Авторизация клиента прошла успешно"
+
+#: services/core/service.php:567
+#, php-format
+msgid "Client cookie invalid in request: %s"
+msgstr "Клиентский файл cookie неверен в запросе: %s"
+
+#: services/core/service.php:667
+msgid "Client disconnected"
+msgstr "Клиент отключен"
+
+#: services/core/service.php:548
+#, php-format
+msgid "Client had no cookie in request: %s"
+msgstr "У клиента нет cookie в запросе: %s"
+
+#: services/core/service.php:578
+#, php-format
+msgid "Client had no key in request: %s"
+msgstr "У клиента нет ключа в запросе: %s"
+
+#: services/core/service.php:765
+msgid "Client read timeout"
+msgstr "Тайм-аут чтения клиента"
+
+#: services/core/service.php:598
+msgid "Client succesfully connected"
+msgstr "Клиент успешно подключен"
+
+#: services/core/service.php:245
+#, php-format
+msgid "Client with ip %s connected"
+msgstr "Клиент с ip %s подключился"
+
+#: services/core/service.php:342
+#, php-format
+msgid "Close acknowledged: %s"
+msgstr "Отключение подтверждено: %s"
+
+#: services/core/service.php:640
+#, php-format
+msgid "Closing client with status: %s"
+msgstr "Отключение клиента со статусом: %s"
+
+#: includes/guideview.php:427
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/guideview.php:52
+msgid "Colors"
+msgstr "Цвета"
+
+#: includes/guideview.php:191
+msgid "Combined"
+msgstr "Совмещенное"
+
+#. Name of the template
+msgid "Community"
+msgstr "Сообщество"
+
+#: includes/guideview.php:845
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: includes/guideview.php:55
+msgid "Constant Bright"
+msgstr "Постоянный яркий"
+
+#: includes/guideview.php:57
+msgid "Constant Dark"
+msgstr "Постоянный темный"
+
+#: includes/gridview.php:33
+msgid "Content grid enabled"
+msgstr "Включена сетка контента"
+
+#: services/core/service.php:720
+#, php-format
+msgid "Could only write %d out of %d bytes"
+msgstr "Удалось записать только %d из байтов %d"
+
+#: services/core/service.php:383
+#, php-format
+msgid "Current online - %d users. Pending connection - %d users."
+msgstr ""
+"Текущий онлайн - %d пользователей. Ожидающее подключения - %d пользователей."
+
+#: includes/guideview.php:65 includes/guideview.php:126
+#: includes/guideview.php:133 includes/guideview.php:140
+#: includes/guideview.php:144
+msgid "Danger"
+msgstr "Опасная"
+
+#: includes/guideview.php:56
+msgid "Dark"
+msgstr "Темный"
+
+#: includes/guideview.php:215
+msgid "Date field"
+msgstr "Поле даты"
+
+#: includes/guideview.php:122 includes/guideview.php:129
+#: includes/guideview.php:136 includes/guideview.php:143
+#: includes/guideview.php:149
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/guideview.php:75
+msgid "Default border radius"
+msgstr "Закругление границы по умолчанию"
+
+#: includes/guideview.php:831
+msgid "Do you really want to do this?"
+msgstr "Вы действительно хотите это сделать?"
+
+#: includes/guideview.php:296
+msgid "Dropdown"
+msgstr "Выпадающий список"
+
+#: includes/guideview.php:313
+msgid "Dropdown button"
+msgstr "Кнопка выпадающего списка"
+
+#: includes/guideview.php:331
+msgid "Dropdown with icons"
+msgstr "Выпадающий список с иконками"
+
+#: includes/guideview.php:48
+msgid "Element guide"
+msgstr "Руководство по элементам"
+
+#: services/core/service.php:782
+msgid "Empty read; connection dead?"
+msgstr "Пустое чтение; соединение разорвано?"
+
+#: services/core/service.php:263
+msgid "Error establishing connection"
+msgstr "Ошибка установки соединения"
+
+#: includes/guideview.php:404
+msgid "Fail modal"
+msgstr "Окно ошибки"
+
+#: services/core/service.php:710
+#, php-format
+msgid "Failed to write %d bytes"
+msgstr "Не удалось записать %d байт"
+
+#: includes/guideview.php:408
+msgid "Features"
+msgstr "Особенности"
+
+#. Name of the template
+msgid "Feed"
+msgstr "Лента"
+
+#: includes/guideview.php:206
+msgid "Fields"
+msgstr "Поля"
+
+#: services/core/service.php:918 services/core/service.php:1068
+msgid "final"
+msgstr "финальный"
+
+#: includes/guideview.php:58
+msgid "Foreground"
+msgstr "Передний план"
+
+#: services/core/service.php:358
+msgid "Got client ping request. Responding..."
+msgstr "От клиента получен запрос пинг. Ответ на запрос..."
+
+#: services/core/service.php:520
+#| msgid "Got http ping request. Responsing and forcing disconnect"
+msgid "Got http ping request. Responsing and forcing client disconnect"
+msgstr "Получен http-запрос на пинг. Выполняется ответ и отключение клиента"
+
+#: services/core/service.php:147
+msgid "Got shutdown command"
+msgstr "Получена команда отключения"
+
+#: services/core/service.php:153
+#| msgid "Got soket disconnection"
+msgid "Got socket disconnection"
+msgstr "Произошло отсоединение сокета"
+
+#: includes/guideview.php:178 includes/guideview.php:192
+msgid "Group 1"
+msgstr "Группа 1"
+
+#: includes/guideview.php:183 includes/guideview.php:197
+msgid "Group 2"
+msgstr "Группа 2"
+
+#: includes/guideview.php:34
+msgid "Guide"
+msgstr "Руководство"
+
+#: includes/guideview.php:23
+msgid "Guide enabled"
+msgstr "Руководство включено"
+
+#: includes/guideview.php:100
+msgid "H1"
+msgstr "H1"
+
+#: includes/guideview.php:101
+msgid "H2"
+msgstr "H2"
+
+#: includes/guideview.php:102
+msgid "H3"
+msgstr "H3"
+
+#: includes/guideview.php:103
+msgid "H4"
+msgstr "H4"
+
+#: includes/guideview.php:104
+msgid "H5"
+msgstr "H5"
+
+#: includes/guideview.php:105
+msgid "H6"
+msgstr "H6"
+
+#: includes/guideview.php:98
+msgid "Headers"
+msgstr "Заголовки"
+
+#. Name of the template
+msgid "Home"
+msgstr "Главная"
+
+#: includes/guideview.php:459
+msgid "Icons"
+msgstr "Значки"
+
+#: includes/guideview.php:412
+msgid "Image"
+msgstr "Изображение"
+
+#: includes/guideview.php:68
+msgid "Info"
+msgstr "Информационный"
+
+#: includes/guideview.php:243
+msgid "Input group"
+msgstr "Группа полей ввода"
+
+#: includes/guideview.php:110
+msgid "Italic"
+msgstr "Курсивный"
+
+#: includes/guideview.php:300 includes/guideview.php:317
+#: includes/guideview.php:336
+msgid "Item 1"
+msgstr "Пункт 1"
+
+#: includes/guideview.php:303 includes/guideview.php:320
+#: includes/guideview.php:340
+msgid "Item 2"
+msgstr "Пункт 2"
+
+#: includes/guideview.php:307 includes/guideview.php:324
+#: includes/guideview.php:345
+msgid "Item 3"
+msgstr "Пункт 3"
+
+#: includes/guideview.php:832
+msgid "It’s very dangerous"
+msgstr "Это очень опасно"
+
+#. Name of the template
+msgid "Jobs"
+msgstr "Работы"
+
+#: includes/guideview.php:115
+msgid "Label"
+msgstr "Заголовок"
+
+#: includes/guideview.php:112
+msgid "Link"
+msgstr "Ссылка"
+
+#: includes/guideview.php:142
+msgid "Links"
+msgstr "Ссылки"
+
+#: includes/gridview.php:31
+msgid "Main grid enabled"
+msgstr "Включена основная сетка"
+
+#: includes/colorview.php:22 includes/nomarginview.php:23
+msgid "Margin disabled"
+msgstr "Отступ отключен"
+
+#: includes/guideview.php:810
+msgid "Modal"
+msgstr "Модальное окно"
+
+#: includes/guideview.php:814
+msgid "Modal content"
+msgstr "Контент модального окна"
+
+#: includes/guideview.php:391
+msgid "Modals"
+msgstr "Модальные окна"
+
+#: includes/guideview.php:156
+msgid "Multiple"
+msgstr "Множественный выбор"
+
+#: services/core/service.php:240
+msgid "New client trying to connect"
+msgstr "Новый клиент пытается подключиться"
+
+#: services/core/service.php:536
+#, php-format
+msgid "No GET in request: %s"
+msgstr "Нет GET в запросе: %s"
+
+#: services/core/service.php:918 services/core/service.php:1068
+msgid "not final"
+msgstr "не финальный"
+
+#: includes/guideview.php:356
+msgid "Notice"
+msgstr "Уведомление"
+
+#: includes/guideview.php:355
+msgid "Notice content"
+msgstr "Содержимое уведомления"
+
+#: includes/guideview.php:355
+msgid "Notice title"
+msgstr "Заголовок уведомления"
+
+#: includes/guideview.php:67
+msgid "Notif"
+msgstr "Оповещение"
+
+#: includes/guideview.php:363
+msgid "Notification"
+msgstr "Оповещение"
+
+#: includes/guideview.php:370
+msgid "Notification message"
+msgstr "Сообщение уведомления"
+
+#: includes/guideview.php:364
+msgid "Notification title"
+msgstr "Заголовок уведомления"
+
+#: includes/guideview.php:212
+msgid "Number field"
+msgstr "Числовое поле"
+
+#. Name of the template
+msgid "Office"
+msgstr "Офис"
+
+#: includes/guideview.php:150 includes/guideview.php:157
+#: includes/guideview.php:164 includes/guideview.php:171
+#: includes/guideview.php:179 includes/guideview.php:193
+msgid "Option 1"
+msgstr "Вариант 1"
+
+#: includes/guideview.php:151 includes/guideview.php:158
+#: includes/guideview.php:165 includes/guideview.php:172
+#: includes/guideview.php:180 includes/guideview.php:194
+msgid "Option 2"
+msgstr "Вариант 2"
+
+#: includes/guideview.php:152 includes/guideview.php:159
+#: includes/guideview.php:166 includes/guideview.php:173
+#: includes/guideview.php:181 includes/guideview.php:195
+msgid "Option 3"
+msgstr "Вариант 3"
+
+#: includes/guideview.php:184 includes/guideview.php:198
+msgid "Option 4"
+msgstr "Вариант 4"
+
+#: includes/guideview.php:185 includes/guideview.php:199
+msgid "Option 5"
+msgstr "Вариант 5"
+
+#: includes/guideview.php:186 includes/guideview.php:200
+msgid "Option 6"
+msgstr "Вариант 6"
+
+#: includes/guideview.php:135
+msgid "Outline"
+msgstr "Контурные"
+
+#: includes/guideview.php:117
+msgid "Paragraph"
+msgstr "Абзац"
+
+#: includes/guideview.php:219
+msgid "Password field"
+msgstr "Поле пароля"
+
+#: services/core/service.php:502
+msgid "Performing client authorization"
+msgstr "Выполнение авторизации клиента"
+
+#: includes/guideview.php:292
+msgid "Popups"
+msgstr "Всплывающие окна"
+
+#: includes/guideview.php:60 includes/guideview.php:123
+#: includes/guideview.php:130 includes/guideview.php:137
+msgid "Primary"
+msgstr "Основной"
+
+#. Name of the template
+msgid "Projects"
+msgstr "Проекты"
+
+#: includes/guideview.php:273
+msgid "Radio 1"
+msgstr "Переключатель 1"
+
+#: includes/guideview.php:279
+msgid "Radio 2"
+msgstr "Переключатель 2"
+
+#: includes/guideview.php:73
+msgid "Radiuses"
+msgstr "Радиусы"
+
+#: services/core/service.php:790
+#, php-format
+msgid "Read %d of %d bytes"
+msgstr "Прочитано %d из %d байтов"
+
+#: services/core/service.php:1065
+#, php-format
+msgid "Read '%s' frame of size %d bytes. It`s %s"
+msgstr "Прочитан фрейм '%s' размером %d байт. Он %s"
+
+#: services/core/service.php:748
+msgid "Reading data from stream"
+msgstr "Считывание данных из потока"
+
+#: services/core/service.php:984
+#, php-format
+#| msgid "Received '%s' message of size %dB. It`s split into %d frame"
+#| msgid_plural "Received '%s' message of size %dB. It`s split into %d frames"
+msgid "Received '%s' message of size %d bite. It`s split into %d frame"
+msgid_plural "Received '%s' message of size %d bite. It`s split into %d frames"
+msgstr[0] "Получено сообщение '%s' размером %d байт. Оно разделено на %d фрейм"
+msgstr[1] ""
+"Получено сообщение '%s' размером %d байт. Оно разделено на %d фрейма"
+msgstr[2] ""
+"Получено сообщение '%s' размером %d байт. Оно разделено на %d фреймов"
+
+#: services/core/service.php:1095
+#, php-format
+msgid "Received 'close', status: %s"
+msgstr "Получено \"close\", статус: %s"
+
+#: services/core/service.php:1076
+msgid "Received 'ping'"
+msgstr "Получен 'ping'"
+
+#: services/core/service.php:1082
+msgid "Received 'pong'"
+msgstr "Получен \"pong\""
+
+#: services/core/service.php:935
+msgid "Receiving data from stream"
+msgstr "Получение данных из потока"
+
+#: includes/guideview.php:224
+msgid "Repeat password field"
+msgstr "Поле для повторного ввода пароля"
+
+#: services/core/service.php:513
+msgid "Request is empty"
+msgstr "Запрос пуст"
+
+#. Name of the template
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: includes/guideview.php:842
+msgid "Revert"
+msgstr "Отменить"
+
+#: includes/guideview.php:395
+msgid "Sample modal"
+msgstr "Образец модального окна"
+
+#: includes/guideview.php:229
+msgid "Search field"
+msgstr "Поле поиска"
+
+#: includes/guideview.php:61 includes/guideview.php:124
+#: includes/guideview.php:131 includes/guideview.php:138
+msgid "Secondary"
+msgstr "Вторичный"
+
+#: includes/guideview.php:146
+msgid "Selects"
+msgstr "Поля выбора"
+
+#: services/core/service.php:845
+#, php-format
+#| msgid "Send '%s' message of size %dB. It`s split into %d frame"
+#| msgid_plural "Send '%s' message of size %dB. It`s split into %d frames"
+msgid "Send '%s' message of size %d bite. It`s split into %d frame"
+msgid_plural "Send '%s' message of size %d bite. It`s split into %d frames"
+msgstr[0] "Отправка сообщения '%s' размером %d байт. Оно разделено на %d фрейм"
+msgstr[1] ""
+"Отправка сообщения '%s' размером %d байт. Оно разделено на %d фрейма"
+msgstr[2] ""
+"Отправка сообщения '%s' размером %d байт. Оно разделено на %d фреймов"
+
+#: services/core/service.php:813
+msgid "Sending data to stream"
+msgstr "Отправка данных в поток"
+
+#: services/core/service.php:915
+#, php-format
+msgid "Sent '%s' frame of size %d bytes. It`s %s"
+msgstr "Отправлен фрейм '%s' размером %d байт. Он %s"
+
+#: services/core/service.php:212
+#, php-format
+msgid "Server listening to port: %s"
+msgstr "Сервер прослушивает порт: %s"
+
+#: services/core/service.php:143
+msgid "Server starting"
+msgstr "Запуск сервера"
+
+#: includes/guideview.php:82
+msgid "Shadow"
+msgstr "Тень"
+
+#: includes/guideview.php:81
+msgid "Shadow color"
+msgstr "Цвет тени"
+
+#: includes/guideview.php:84
+msgid "Shadow hover"
+msgstr "Тень при наведении"
+
+#: includes/guideview.php:83
+msgid "Shadow hover color"
+msgstr "Цвет тени при наведении"
+
+#: includes/guideview.php:94
+msgid "Shadow inset"
+msgstr "Внутренняя тень"
+
+#: includes/guideview.php:93
+msgid "Shadow inset color"
+msgstr "Цвет внутренней тени"
+
+#: includes/guideview.php:88
+msgid "Shadow small"
+msgstr "Маленькая тень"
+
+#: includes/guideview.php:87
+msgid "Shadow small color"
+msgstr "Цвет маленькой тени"
+
+#: includes/guideview.php:90
+msgid "Shadow small hover"
+msgstr "Маленькая тень при наведении"
+
+#: includes/guideview.php:89
+msgid "Shadow small hover color"
+msgstr "Цвет маленькой тени при наведении"
+
+#: includes/guideview.php:78
+msgid "Shadows"
+msgstr "Тени"
+
+#: services/core/service.php:227
+#, php-format
+#| msgid "Shutdown after %s second of downtime"
+#| msgid_plural "Shutdown after %s seconds of downtime"
+msgid "Shutdown after %s second of idletime"
+msgid_plural "Shutdown after %s seconds of idletime"
+msgstr[0] "Выключение после %s секунды простоя"
+msgstr[1] "Выключение после %s секунд простоя"
+msgstr[2] "Выключение после %s секунд простоя"
+
+#: services/core/service.php:412
+msgid "Shutdown ended successfully"
+msgstr "Отключение сервиса выполнено успешно"
+
+#: services/core/service.php:298
+msgid "Silent disconnect found. Removing client from list"
+msgstr "Обнаружено бесшумное отключение. Удаление клиента из списка"
+
+#: includes/guideview.php:69
+msgid "Slider"
+msgstr "Слайдер"
+
+#: includes/guideview.php:111
+msgid "Small"
+msgstr "Мелкий"
+
+#: includes/guideview.php:350
+msgid "Some tooltip text"
+msgstr "Текст всплывающей подсказки"
+
+#: includes/guideview.php:835
+msgid "Specify password"
+msgstr "Укажите пароль"
+
+#: services/core/service.php:191
+#| msgid "SSL certificates could not be set correctly"
+msgid "SSL certificate could not be set correctly"
+msgstr "SSL сертификат не может быть установлен"
+
+#: services/core/service.php:182
+#| msgid "Certificate files not exists"
+msgid "SSL certificate files not exists"
+msgstr "Файлов SSL сертификата не существует"
+
+#: includes/guideview.php:121
+msgid "Standart"
+msgstr "Стандартные"
+
+#: services/core/service.php:395
+msgid "Starting shutdown"
+msgstr "Начата процедура отключения"
+
+#: services/core/service.php:756
+msgid "Stream are not readable"
+msgstr "Поток недоступен для чтения"
+
+#: services/core/service.php:703
+msgid "Stream are not writeble"
+msgstr "Поток не доступен для записи"
+
+#: services/core/service.php:500 services/core/service.php:697
+#: services/core/service.php:751 services/core/service.php:816
+#: services/core/service.php:938
+msgid "Stream is disconnected"
+msgstr "Поток отключился"
+
+#: includes/guideview.php:63
+msgid "Success"
+msgstr "Успех"
+
+#: includes/guideview.php:401
+msgid "Success modal"
+msgstr "Окно завершения"
+
+#: includes/guideview.php:287
+msgid "Switch"
+msgstr "Переключатель"
+
+#: includes/guideview.php:258
+msgid "Switches"
+msgstr "Переключатели"
+
+#: includes/guideview.php:62 includes/guideview.php:125
+#: includes/guideview.php:132 includes/guideview.php:139
+msgid "Tertiary"
+msgstr "Третичный"
+
+#: includes/guideview.php:107 includes/guideview.php:442
+msgid "Text"
+msgstr "Текст"
+
+#: includes/guideview.php:209
+msgid "Text field"
+msgstr "Текстовое поле"
+
+#: includes/guideview.php:235
+msgid "Textarea"
+msgstr "Текстовая область"
+
+#: includes/guideview.php:239
+msgid "Textarea with emoji"
+msgstr "Текстовая область с эмоджи"
+
+#: includes/guideview.php:251
+msgid "Textarea with emoji and button"
+msgstr "Текстовая область с эмоджи и кнопкой"
+
+#. 1: Number of row, 2: Number of keys in row, 3: Number of keys passed in first row.
+#: includes/mysql.php:72 includes/mysql.php:184
+#, php-format
+msgid ""
+"The query row %1$d keys (%2$d) does not match the number of keys passed in "
+"first row (%3$d)."
+msgstr ""
+"Количество ключей для строки %1$d (%2$d) не соответствует количеству ключей, "
+"переданных в первой строке (%3$d)."
+
+#: footer.php:107 footer.php:185 footer.php:229 footer.php:1362 footer.php:1417
+#: footer.php:1491 footer.php:1535
+#, php-format
+msgid ""
+"This site is protected by <span>reCAPTCHA</span> and the <span>Google</span>"
+"\n"
+"\t\t                                    <a href=\"%s\" target=\"_blank\">"
+"Privacy Policy</a> and\n"
+"\t\t                                    <a href=\"%s\" target=\"_blank\">"
+"Terms of Service</a> apply."
+msgstr ""
+"Этот сайт защищен с помощью <span>Google reCAPTCHA</span>. Применяется\n"
+"\t\t                                    <a href=\"%s\" target=\"_blank\">"
+"Политика конфиденциальности</a> и\n"
+"\t\t                                    <a href=\"%s\" target=\"_blank\">"
+"Условия предоставления услуг</a> <span>Google</span>."
+
+#: includes/guideview.php:351
+msgid "Tooltip"
+msgstr "Подсказка"
+
+#: includes/guideview.php:415 includes/guideview.php:416
+#: includes/guideview.php:416 includes/guideview.php:416
+#: includes/guideview.php:421 includes/guideview.php:430
+#: includes/guideview.php:431 includes/guideview.php:445
+#: includes/guideview.php:446
+msgid "Type 1"
+msgstr "Тип 1"
+
+#: includes/guideview.php:420 includes/guideview.php:421
+#: includes/guideview.php:421 includes/guideview.php:435
+#: includes/guideview.php:436 includes/guideview.php:450
+#: includes/guideview.php:451
+msgid "Type 2"
+msgstr "Тип 2"
+
+#. Name of the template
+msgid "Users"
+msgstr "Пользователи"
+
+#: includes/guideview.php:66
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: includes/guideview.php:170
+msgid "With create"
+msgstr "С возможностью создания"
+
+#: includes/guideview.php:177
+msgid "With groups"
+msgstr "С группами"
+
+#: includes/guideview.php:163
+#| msgid "With Search"
+msgid "With search"
+msgstr "С поиском"
+
+#: services/core/service.php:694
+msgid "Writing data to stream"
+msgstr "Запись данных в поток"
+
+#: services/core/service.php:730
+#, php-format
+msgid "Wrote %d of %d bytes"
+msgstr "Записно %d из %d байт"

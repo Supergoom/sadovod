@@ -1,0 +1,58 @@
+<!doctype html>
+<html <?php language_attributes(); ?>>
+<?php global $post; ?>
+
+<head itemscope itemtype="http://schema.org/WPHeader" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#">
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta name="yandex-verification" content="6fdabe228a5fa929" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title itemprop="headline"><?= get_current_title() ?></title>
+    <meta itemprop="description" name="description" content="<?= get_current_description() ?>">
+    <meta itemprop="keywords" name="keywords" content="<?= get_current_keywords() ?>">
+
+    <link rel="manifest" href="/manifest.json">
+    <link rel="author" href="/humans.txt">
+
+    <?php wp_head(); ?>
+</head>
+
+<body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
+    <header id="nav-header">
+        <div class="container header-nav">
+            <div class="row align-items-center justify-content-between flex-nowrap">
+                <div class="col-md-3 header-logo-col">
+                    <a href="/">
+                        <img class="site-logo lazyload" title="<?php bloginfo('name'); ?>" alt="<?php bloginfo('name'); ?>" src="<?= get_logo_placeholder('custom_logo'); ?>" data-src="<?= wp_get_attachment_image_url(get_theme_mod('custom_logo'), 'tiny'); ?>">
+                    </a>
+                </div>
+                <button class="navbar-toggler p-0 border-0 d-none" type="button" id="navbarSideCollapse" aria-label="Показать навигацию">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Надо объеденить и доработать -->
+                <div class="col-md-5 header-nav-col">
+                    <?php outputMenu('header', 'text-right'); ?>
+                </div>
+                <div class="col-md-4 header-contact-col">
+                    <div class="contact-phones">
+                        <a href="tel:+79675556855">
+                            <span>+7 (967) 555-68-55</span>
+                        </a>
+                    </div>
+                    <div class="contact-social">
+                        <a class="btn btn-outline-primary" href="https://tg.me/" target="_blank">
+                            <i class="i-telegram"></i>
+                        </a>
+                        <a class="btn btn-outline-primary" href="https://wa.me/" target="_blank">
+                            <i class="i-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- чтобы раскрывалось меню на телефонах -->
+            </div>
+        </div>
+    </header>
+    <div id="primary" class="content-area">
