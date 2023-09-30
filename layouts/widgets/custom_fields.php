@@ -147,7 +147,6 @@ function getDataMunicipalityByName($municipality)
                 ];
             }
         }
-
     }
     if (!empty($data)) {
         return $data;
@@ -170,11 +169,9 @@ function getDataMunicipalityByCity($city)
                 ];
             }
         }
-
     }
     if (!empty($data)) {
         return $data;
     }
     return null;
 }
-

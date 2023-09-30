@@ -60,37 +60,7 @@ include_once('modules/upscale/main.php');
 if (wp_doing_ajax()) {
     include_once('requests/user_message.php');
     include_once('requests/filter-blog.php');
-    include_once('requests/tooltip.php');
-    include_once('requests/municipalities-list.php');
 };
-
-/*   Дополнительные поля пользователя ------------------------------*/
-include_once('settings/fields/user_fields.php');
-include_once('settings/fields/admin_fields.php');
-
-
-/*   Регистрация пользователя ------------------------------*/
-include_once('registration/user.php');
-
-/*   Получаем данные с кастомных полей ------------------------------*/
-include_once('layouts/widgets/custom_fields.php');
-
-//Аккардионы в админке
-function admin_js()
-{
-?>
-    <script>
-        jQuery(document).ready(function($) {
-            $('tr:not(.acf-clone) .acf-table [data-key="field_6515696bdbf81"]').each(function(index) {
-                let val = $(this).find('.acf-accordion-content [data-name="name_municipality"] .acf-input input').val();
-                if (val) {
-                    $(this).find('.acf-accordion-title label').html(val);
-                }
-            });
-        });
-    </script>
-<?php }
-add_action('admin_head', 'admin_js');
 
 // Перенаправление со страниц входа
 
@@ -131,12 +101,15 @@ function register_link_url($url)
     }
     return $url;
 }
-
 add_filter('register', 'register_link_url', 10, 2);
 
-add_action('wp_enqueue_scripts', 'add_jquery');
 
-function add_jquery()
-{
-    wp_enqueue_script('jquery');
+/*  Elementor HEADER - Blog ----------------------------------------------*/
+/*
+if (!function_exists('hello_elementor_body_open')) {
+    function hello_elementor_body_open()
+    {
+        wp_body_open();
+    }
 }
+*/

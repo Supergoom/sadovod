@@ -711,63 +711,6 @@ footer {
     display: block;
 }
 
-.account-card__item {
-    border-radius: 10px;
-    background: var(--color-white);
-    padding: 40px;
-}
-
-.account-card__title {
-    font-weight: 600;
-}
-
-.account-card__top {
-    display: flex;
-    justify-content: space-between;
-}
-
-.account-card__btn {
-    display: inline-block;
-    margin-top: 40px;
-    border-radius: 6px;
-    background: var(--bg-main-blue);
-    color: var(--color-white);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 50px;
-    text-transform: uppercase;
-    padding: 0 24px;
-}
-
-#wpadminbar {
-    top: auto !important;
-    bottom: 0;
-}
-
-.skeleton-box > div {
-    background: linear-gradient(
-to right,
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.5) 50%,
-      rgba(255, 255, 255, 0) 80%
-    ),
-    lightgray;
-    background-repeat: repeat-y;
-    background-size: 50px 500px;
-    background-position: 0 0;
-    animation: shine 1s infinite;
-    width: 100%;
-    line-height: 18px;
-    margin-bottom: 5px;
-    font-size: 0;
-}
-
-@keyframes shine {
-    to {
-      background-position: 100% 0, /* move highlight to right */ 0 0;
-    }
-  }
-
 @media (max-width: 1535px) {
     .header__nav nav a {
         font-size: 16px;
