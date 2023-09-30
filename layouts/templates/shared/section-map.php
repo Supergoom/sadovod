@@ -875,13 +875,23 @@
     </div>
 </section>
 
+<?php
 
-<div id="balaklavskiy" class="cnt-tooltip">
-    <p>Общая площадь <span>530,3 км²</span></p>
-    <p>Население <span>74 817 чел.</span></p>
-    <p>Участков <span>4 000</span></p>
-    <p>Количество СНТ <span>65</span></p>
-</div>
+$data = getDataMunicipalityByCity('Севастополь');
+
+foreach ($data as $key => $value) {
+
+?>
+    <div id="<?= $value['id_municipality'] ?>" class="cnt-tooltip">
+        <p>Общая площадь <span><?= $value['square'] ?> км²</span></p>
+        <p>Население <span><?= $value['population'] ?> чел.</span></p>
+        <p>Участков <span><?= $value['land_plots'] ?></span></p>
+        <p>Количество СНТ <span><?= $value['number_snt'] ?></span></p>
+    </div>
+<?php
+}
+?>
+
 <!-- <div id="orli" class="cnt-tooltip">
     <p>Снт орлинное</p>
     <p>Снт орлинное</p>

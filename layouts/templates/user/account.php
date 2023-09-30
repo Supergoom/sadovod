@@ -49,7 +49,7 @@ endif;
 
 <section class="account-card mt-[40px] mb-[80px]">
     <div class="container mx-auto px-4">
-        <div class="section__title">Добро пожаловать в карточку садовода СНТ “Садовод”</div>
+        <div class="section__title">Добро пожаловать в карточку садовода СНТ <?php echo get_user_meta($user_ID, 'namesnt', true) ?></div>
         <div class="grid grid-cols-3 gap-[39px] mt-[40px] account-card__row">
             <div class="account-card__item">
                 <div class="account-card__top">

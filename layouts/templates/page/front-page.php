@@ -6,52 +6,6 @@
 
 get_header();
 
-$fields = get_fields('options');
-
-foreach ($fields['city'] as $key => $value) {
-
-    if (is_array($value['municipality'])) {
-        foreach ($value['municipality'] as $k => $v) {
-
-            $field[] = [
-                'city' =>  $value['name_city'],
-                'municipality' => $v['name_municipality'],
-                'snt' => $v['snt'],
-            ];
-        }
-    } else {
-        $field[] = [
-            'city' =>  $value['name_city'],
-            'municipality' => $value['municipality'],
-            'snt' => '',
-        ];
-    }
-}
-
-foreach ($field as $i => $w) {
-    if (is_array($w['snt'])) {
-        foreach ($w['snt'] as $s => $m) {
-            $res[] = [
-                'city' => $w['city'],
-                'municipality' => $w['municipality'],
-                'snt' => $m['name_snt'],
-                'link_maps' => $m['link_maps'],
-            ];
-        }
-    } else {
-        $res[] = [
-            'city' => $w['city'],
-            'municipality' => $w['municipality'],
-            'snt' => '',
-            'link_maps' => '',
-        ];
-    }
-}
-
-echo '<pre>';
-print_r($res);
-echo '</pre>';
-
 ?>
 
 <main>
