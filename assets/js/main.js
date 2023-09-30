@@ -13,18 +13,43 @@ jQuery(function ($) {
 
         //клик по участку в карте
         $('[data-step-next]').on('click', function() {
-            let thisPrewievStep = $(this).data('step-prewiev');
             let thisNextStep = $(this).data('step-next');
-            let isAcrive = $(this).data('active');
+            let isActive = $(this).data('active');
+
+            //скрываем тултип
+            $('.cnt-tooltip').hide()
 
             //отмена для disabled
-            if( isAcrive == 'disabled' ) return;
+            if( isActive == 'disabled' ) return;
 
             //добавить в навигацию
             $('.district__nav').append(`<span data-nav-step="${carrentStep}">` + $(this).attr('data-title') + '</span>');
 
             //обновить кнопку назад
             $('.close-district').attr('data-prewiev', carrentStep);
+
+            
+            //условия на кнопку нажатия муниципалитета
+            if( $(this).data('step') == 'municipalities' ) {
+                $('[data-step="municipalities-list"]').attr('data-step-id', thisNextStep);
+                $('[data-step="municipalities-list"]').attr( 'data-step-preview', $(this).closest('.map-step').data('step-id') )
+
+                $.ajax({
+                    url: '/wp-admin/admin-ajax.php',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        action: 'municipalities_list',
+                        municipality: $(this).data('step-next')
+                    },
+                    beforeSend: function( xhr ) {
+                        console.log('beforeSend');
+                    },
+                    success: function( data ) {
+                        $('.map-step__last-text-row').html( data.html );
+                    }
+                });
+            }
 
             //меняем карту
             $(`[data-step-id="${carrentStep}"]`).hide();
@@ -62,22 +87,45 @@ jQuery(function ($) {
         );
 
         //подсказки при ховере
-        $("[data-step-next]").mousemove(function (eventObject) {
-            $data_tooltip = $(this).attr("data-step-next");
-
-            $('#' + $data_tooltip).css({ 
-                "top" : eventObject.pageY + 15,
-                "left" : eventObject.pageX + 15
-              })
-              .show();
-            }).mouseout(function () {
-                $('#' + $data_tooltip).hide()
-                .css({
-                    "top" : 0,
-                    "left" : 0
+        $(document).on("mouseenter", '[data-step="municipalities"]:not([data-active="disabled"])', function() {
+            $(this).mousemove(function (eventObject) {
+                $data_tooltip = $(this).attr("data-step-next");
+    
+                $('.cnt-tooltip').css({ 
+                    "top" : eventObject.pageY + 15,
+                    "left" : eventObject.pageX + 15
+                  })
+                  .show();
+                }).mouseout(function () {
+                    $('.cnt-tooltip').hide()
+                    .css({
+                        "top" : 0,
+                        "left" : 0
+                    });
                 });
-        });
 
+            $.ajax({
+                url: '/wp-admin/admin-ajax.php',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    action: 'tooltip',
+                    municipality: $(this).data('step-next')
+                },
+                beforeSend: function( xhr ) {
+                    $( '.cnt-tooltip__main' ).addClass('skeleton-box');
+                },
+                success: function( data ) {
+                    $('.cnt-tooltip__square').html(data.square);
+                    $('.cnt-tooltip__population').html(data.population);
+                    $('.cnt-tooltip__number_snt').html(data.number_snt);
+                    $('.cnt-tooltip__land_plots').html(data.land_plots);
+                    
+                    $( '.cnt-tooltip__main' ).removeClass('skeleton-box');
+                }
+            });
+        });
+    
         //при нажатии на раен в шаге 2
         $('.rf-map').on('click', '[data-tooltip]', function(){    
             let id = $(this).attr('data-tooltip');

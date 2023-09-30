@@ -621,6 +621,10 @@ footer {
     font-size: 18px;
   }
 
+  .cnt-tooltip__main span div {
+    display: inline-block;
+  }
+
 #authMap a {
     color: var(--bg-main-blue);
     text-decoration: underline;
@@ -739,6 +743,30 @@ footer {
     top: auto !important;
     bottom: 0;
 }
+
+.skeleton-box > div {
+    background: linear-gradient(
+to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 80%
+    ),
+    lightgray;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;
+    width: 100%;
+    line-height: 18px;
+    margin-bottom: 5px;
+    font-size: 0;
+}
+
+@keyframes shine {
+    to {
+      background-position: 100% 0, /* move highlight to right */ 0 0;
+    }
+  }
 
 @media (max-width: 1535px) {
     .header__nav nav a {

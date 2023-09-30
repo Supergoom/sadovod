@@ -27,7 +27,7 @@
             <div class="container mx-auto px-4 flex justify-between h-[70px]">
                 <a href="/" class="w-64 flex items-center header__logo">
                     <div>
-                        <img class="lazyload" title="<?php bloginfo('name'); ?>" alt="<?php bloginfo('name'); ?>" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
+                        <img title="<?php bloginfo('name'); ?>" alt="<?php bloginfo('name'); ?>" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png">
                     </div>
                     <div class="ml-2.5 text-sm/[14px] w-[175px]">
                         Союз садоводов России Город Севастополь
