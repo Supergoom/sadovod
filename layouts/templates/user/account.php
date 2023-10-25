@@ -49,7 +49,12 @@ endif;
 
 <section class="account-card mt-[40px] mb-[80px]">
     <div class="container mx-auto px-4">
-        <div class="section__title">Добро пожаловать в карточку садовода СНТ <?php echo get_user_meta($user_ID, 'namesnt', true) ?></div>
+        <div class="section__title" style="text-align: center;">Добро пожаловать в карточку садовода <br>
+            <?php if (!empty(get_user_meta($user_ID, 'namesnt', true))) { ?>
+                <span>СНТ  <?php echo get_user_meta($user_ID, 'namesnt', true) ?></span>
+            <?php } ?>
+
+        </div>
         <div class="grid grid-cols-3 gap-[39px] mt-[40px] account-card__row">
             <div class="account-card__item">
                 <div class="account-card__top">
@@ -105,10 +110,27 @@ endif;
                 </div>
                 <a href="#" class="account-card__btn">Посмотреть</a>
             </div>
+            <?php
+                $id = get_current_user_id();
+                $gis_user_id = get_the_author_meta('gis_user_id', $id);
+                if (!empty($gis_user_id)) :
+            ?>
+                <div class="account-card__item">
+                    <a class="account-card__btn" href="http://213.59.166.20:62555/" title="Выход">Перейти в GIS</a>
+                </div>
+           <?php endif ?>
+            <div class="account-card__item">
+                <a class="account-card__btn" href="<?php echo wp_logout_url(home_url()); ?>" title="Выход">Выйти из аккаунта</a>
+            </div>
         </div>
     </div>
+<!--    <br><br><a href="--><?php //echo wp_logout_url(home_url()); ?><!--" title="Выход">Выход</a>-->
 </section>
-<?php get_template_part('layouts/templates/shared/section-message'); ?>
+    <!-- форма -->
+    <div class="container mx-auto px-4 mb-[80px]">
+        <?php get_template_part('layouts/templates/shared/section-message'); ?>
+    </div>
+
 
 <!-- <form action="<?php echo get_stylesheet_directory_uri() ?>/profile-update.php" method="POST">
 
@@ -132,6 +154,6 @@ endif;
 
     <button>Сохранить</button>
 </form>
+-->
 
-<br><br><a href="<?php echo wp_logout_url(home_url()); ?>" title="Выход">Выход</a> -->
 <?php get_footer(); ?>

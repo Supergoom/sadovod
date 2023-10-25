@@ -28,7 +28,7 @@ if ($_POST) {
 
     $user_verify = wp_signon($login_data, false);
 
-    //Передаем параметр error для использования его потом в скрипте
+    //Передаем параметр error
     if (is_wp_error($user_verify)) {
 
         header("Location: " . home_url() . "/login?error=true");
@@ -55,6 +55,10 @@ get_header();
                 <label for="" class="mt-[20px]">
                     <p class="text-[15px]">Пароль*</p>
                     <input id="password" name="password" type="password" placeholder="Пароль" >
+                </label>
+                <label for="" class="mt-[20px]">
+                    <span style="">Запомнить меня</span>
+                    <input style="width: 20%; height: 15px;" name="rememberme" type="checkbox" id="rememberme" value="forever" />
                 </label>
                 <div class="flex justify-between items-center mt-[30px]">
                     <input id="submit" type="submit" name="submit" value="Войти">

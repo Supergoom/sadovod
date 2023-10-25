@@ -4,11 +4,11 @@
         <div class="last-blog__title">Новое в блоге:</div>
         <div class="row last-blog__row">
             <?php
-            $args = array(
-                'post_type'         => 'post',
-                // 'paged'             => get_query_var('paged'),
-                'posts_per_page'    => 8
-            );
+            $args = [
+                'post_type' => 'post',
+                //'paged'             => get_query_var('paged'),
+                'posts_per_page'    => 4
+            ];
 
             $post_query = new WP_Query($args);
 
